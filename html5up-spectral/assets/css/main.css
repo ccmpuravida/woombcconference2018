@@ -3202,7 +3202,7 @@
 					letter-spacing: 0.225em;
 					outline: 0;
 					text-decoration: none;
-					text-transform: uppercase;
+					//text-transform: uppercase;
 				}
 
 					@media screen and (max-width: 736px) {
