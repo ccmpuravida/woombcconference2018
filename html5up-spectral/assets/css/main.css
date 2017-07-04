@@ -2028,6 +2028,10 @@
 				ul.icons li:last-child {
 					padding-right: 0 !important;
 				}
+				ul.icons.minor li:last-child {
+					padding-right: 1em !important;
+				}
+
 
 			ul.icons.major {
 				padding: 1em 0;
