@@ -2028,6 +2028,10 @@
 				ul.icons li:last-child {
 					padding-right: 0 !important;
 				}
+				ul.icons.minor li:last-child {
+					padding-right: 1em !important;
+				}
+
 
 			ul.icons.major {
 				padding: 1em 0;
@@ -3198,7 +3202,7 @@
 					letter-spacing: 0.225em;
 					outline: 0;
 					text-decoration: none;
-					text-transform: uppercase;
+					//text-transform: uppercase;
 				}
 
 					@media screen and (max-width: 736px) {
