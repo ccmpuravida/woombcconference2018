@@ -2092,7 +2092,7 @@
 
 			ul.actions.fit {
 				display: table;
-				margin-left: -1.5em;
+				margin-left: -2.0em;
 				padding: 0;
 				table-layout: fixed;
 				width: calc(100% + 1.5em);
@@ -2108,7 +2108,7 @@
 					}
 
 				ul.actions.fit.small {
-					margin-left: -0.75em;
+					margin-left: -1.00em;
 					width: calc(100% + 0.75em);
 				}
 
