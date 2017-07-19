@@ -9,7 +9,7 @@
 
 /* Reset */
 
-	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio {
 		margin: 0;
 		padding: 0;
 		border: 0;
@@ -2092,7 +2092,7 @@
 
 			ul.actions.fit {
 				display: table;
-				margin-left: -1.5em;
+				margin-left: -2.0em;
 				padding: 0;
 				table-layout: fixed;
 				width: calc(100% + 1.5em);
@@ -2108,7 +2108,7 @@
 					}
 
 				ul.actions.fit.small {
-					margin-left: -0.75em;
+					margin-left: -1.00em;
 					width: calc(100% + 0.75em);
 				}
 
@@ -3214,7 +3214,7 @@
 					}
 
 		#menu .close {
-			background-image: url("images/close.svg");
+			background-image: url("./images/close.svg");
 			background-position: 4.85em 1em;
 			background-repeat: no-repeat;
 			border: 0;
@@ -3331,7 +3331,7 @@
 						}
 
 							#header nav > ul > li > a.menuToggle:after {
-								background-image: url("images/bars.svg");
+								background-image: url("./images/bars.svg");
 								background-position: right center;
 								background-repeat: no-repeat;
 								content: '';
@@ -3485,7 +3485,7 @@
 		}
 
 			#banner .more:after {
-				background-image: url("images/arrow.svg");
+				background-image: url("./images/arrow.svg");
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: contain;
@@ -3815,4 +3815,12 @@
 
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
+	}
+	
+	.videoWoombcr > video{
+	    border:1px solid red;
+	    margin-right:0;
+	    padding:0;    
+	    float:left;
+	    font-size:0 !important;
 	}
