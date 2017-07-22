@@ -1,0 +1,163 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Programa Conferencia</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+
+	</head>
+	<body>
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">Inicio</a></h1>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="index.html">Home</a></li>
+											<li><a href="generic.html">Generic</a></li>
+											<li><a href="elements.html">Elements</a></li>
+											<li><a href="#">Sign Up</a></li>
+											<li><a href="#">Log In</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<article id="main">
+						<header>
+							<h2>Programa de Conferencia</h2>
+							<!--<p>Aliquam ut ex ut interdum donec amet imperdiet eleifend</p>-->
+						</header>
+						<section class="wrapper style5">
+							<div class="inner">
+
+
+								<ul class="actions">
+									<li><div id="viernes" class="button">Viernes 27</div></li>
+									<li><div id="sabado" class="button">S&aacute;bado 28</div></li>
+								</ul>
+
+								<div id="tab-1" class="tab-content">
+									<h6>8:00 - 9:00</h6>
+									<p>Recepci&oacute;n de Invitados</p>
+									<hr />
+									<h6>9:00 - 9:30</h6>
+									<p>Bienvenida, apertura y acto cultural</p>
+									<hr />
+									<h6>9:30 - 10:30</h6>
+									<p>Hechos cient&iacute;ficos del M&eacute;todo de Ovulaci&oacute;n Billings&reg;. Sra. Marian Corkill.</p>
+									<hr />
+									<h6>10:30 - 11:15</h6>
+									<p>Refrigerio</p>
+									<hr />
+									<h6>11:15 - 12:00</h6>
+									<p>Ense&ntilde;anza del M&eacute;todo de Ovulaci&oacute;n Billings&reg; a personas no videntes. Sra. Silvia Etchegoyen/Srta. Samanta Osterloh.</p>
+									<hr />
+									<h6>12:00 - 13:30</h6>
+									<p>Almuerzo</p>
+									<hr />
+								</div>
+								<div id="tab-2" class="tab-content">
+									<h6>7:30 - 8:00</h6>
+									<p>Misa</p>
+									<hr />
+									<h6>8:30 - 9:00</h6>
+									<p>Recibimiento de invitados</p>
+									<hr />
+									<h6>9:00 - 10:15</h6>
+									<p>Factores nutricionales y fertilidad. Dra. Stephanie Cordero.</p>
+									<hr />
+									<h6>10:15 - 11:00</h6>
+									<p>Refrigerio</p>
+									<hr />
+									<h6>11:00 - 12:15</h6>
+									<p>Consideraciones bio&eacute;ticas de la planificaci&oacute;n familiar natural. Dr. Mart&iacute;n Tantalean.</p>
+									<hr />
+									<h6>12:15 - 13:30</h6>
+									<p>Almuerzo</p>
+									<hr />
+									<h6>13:30 - 13:45</h6>
+									<p>Acto Cultural</p>
+									<hr />
+								</div>
+							</div>
+						</section>
+					</article>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons">
+							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+							<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+		<script language="javascript">
+		//function tabchange(tab_id)
+		//{
+		//	alert(tab_id);
+		//}
+
+		$(function() {
+			$('.tab-content:not(:first)').hide(); /* hide all divs except first */
+			$('.button:first').addClass('special'); /* add a class to the first and active div */
+			$('.tab-content:first').addClass('active'); /* add a class to the first and active div */
+
+			$('#viernes, #sabado').on('click', function(e) {
+				e.preventDefault(); /* prevent anchor from firing */
+				var option = $(this).prop('id'); /* define the current button */
+				var active = $('.tab-content.active'); /* find active item */
+				var currButton = $('.button.special'); /* find active button */
+
+				var newActive = (option == 'sabado') ? 1 : 0; /* define the new active page */
+				var newButton = (option == 'sabado') ? 1 : 0; /* define the new active button */
+
+				active.removeClass('active').hide() /* remove active state from the old page and hide it */
+				$('.tab-content').eq(newActive).addClass('active').show(); /* add active state to the new page and show it */
+
+				currButton.removeClass('special') /* remove special state from the old button */
+				$('.button').eq(newActive).addClass('special') /* add special state to the new button*/
+
+			});
+
+		});
+
+		</script>
+
+	</body>
+</html>
