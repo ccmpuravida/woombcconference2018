@@ -155,7 +155,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/20/2015 18:50:13</publishTime>
     </File>
     <File Include="bin/en/WC18.resources.dll">
-      <publishTime>08/18/2017 13:26:10</publishTime>
+      <publishTime>08/18/2017 13:56:02</publishTime>
     </File>
     <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
       <publishTime>07/25/2017 16:45:52</publishTime>
@@ -341,10 +341,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/28/2015 04:04:30</publishTime>
     </File>
     <File Include="bin/WC18.dll">
-      <publishTime>08/18/2017 13:26:09</publishTime>
+      <publishTime>08/18/2017 13:56:02</publishTime>
     </File>
     <File Include="bin/WC18.pdb">
-      <publishTime>08/18/2017 13:26:09</publishTime>
+      <publishTime>08/18/2017 13:56:02</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
       <publishTime>10/20/2015 18:52:41</publishTime>
@@ -460,6 +460,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="images/kerrybourke_100.jpg">
       <publishTime>08/14/2017 21:00:36</publishTime>
     </File>
+    <File Include="images/logo-web.png">
+      <publishTime>08/18/2017 13:51:37</publishTime>
+    </File>
     <File Include="images/LogoFinal.png">
       <publishTime>08/18/2017 08:21:51</publishTime>
     </File>
@@ -518,7 +521,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/14/2017 21:00:35</publishTime>
     </File>
     <File Include="manifest.json">
-      <publishTime>08/18/2017 13:18:25</publishTime>
+      <publishTime>08/18/2017 14:10:05</publishTime>
     </File>
     <File Include="ms-icon-144x144.png">
       <publishTime>08/14/2017 21:00:35</publishTime>
@@ -599,10 +602,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/14/2017 22:29:05</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>08/18/2017 13:04:38</publishTime>
+      <publishTime>08/18/2017 13:53:42</publishTime>
     </File>
     <File Include="Views/Home/Index.en.cshtml">
-      <publishTime>08/18/2017 11:33:32</publishTime>
+      <publishTime>08/18/2017 13:54:13</publishTime>
     </File>
     <File Include="Views/Home/Program.cshtml">
       <publishTime>08/18/2017 11:37:18</publishTime>
@@ -635,7 +638,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/14/2017 19:30:58</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>08/18/2017 13:26:12</publishTime>
+      <publishTime>08/18/2017 13:56:03</publishTime>
     </File>
   </ItemGroup>
 </Project>
