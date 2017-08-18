@@ -62,3 +62,4 @@ C:\Users\Christian\Documents\GitHub\woombcconference2018\WC18\WC18\bin\System.We
 C:\Users\Christian\Documents\GitHub\woombcconference2018\WC18\WC18\obj\Release\WC18.csprojResolveAssemblyReference.cache
 C:\Users\Christian\Documents\GitHub\woombcconference2018\WC18\WC18\obj\Release\WC18.dll
 C:\Users\Christian\Documents\GitHub\woombcconference2018\WC18\WC18\obj\Release\WC18.pdb
+C:\My\Doc\Billings\Conferencia 2018\woombcconference2018\WC18\WC18\obj\Release\WC18.csproj.CoreCompileInputs.cache

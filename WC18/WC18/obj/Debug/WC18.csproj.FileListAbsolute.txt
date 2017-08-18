@@ -2,7 +2,6 @@ C:\My\Doc\Billings\Conferencia 2018\woombcconference2018\WC18\WC18\bin\WC18.dll.
 C:\My\Doc\Billings\Conferencia 2018\woombcconference2018\WC18\WC18\bin\WC18.dll
 C:\My\Doc\Billings\Conferencia 2018\woombcconference2018\WC18\WC18\bin\WC18.pdb
 C:\My\Doc\Billings\Conferencia 2018\woombcconference2018\WC18\WC18\bin\Antlr3.Runtime.dll
-C:\My\Doc\Billings\Conferencia 2018\woombcconference2018\WC18\WC18\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\My\Doc\Billings\Conferencia 2018\woombcconference2018\WC18\WC18\bin\Microsoft.Web.Infrastructure.dll
 C:\My\Doc\Billings\Conferencia 2018\woombcconference2018\WC18\WC18\bin\Newtonsoft.Json.dll
 C:\My\Doc\Billings\Conferencia 2018\woombcconference2018\WC18\WC18\bin\System.Net.Http.Formatting.dll
@@ -17,7 +16,6 @@ C:\My\Doc\Billings\Conferencia 2018\woombcconference2018\WC18\WC18\bin\System.We
 C:\My\Doc\Billings\Conferencia 2018\woombcconference2018\WC18\WC18\bin\System.Web.WebPages.Razor.dll
 C:\My\Doc\Billings\Conferencia 2018\woombcconference2018\WC18\WC18\bin\WebGrease.dll
 C:\My\Doc\Billings\Conferencia 2018\woombcconference2018\WC18\WC18\bin\Antlr3.Runtime.pdb
-C:\My\Doc\Billings\Conferencia 2018\woombcconference2018\WC18\WC18\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\My\Doc\Billings\Conferencia 2018\woombcconference2018\WC18\WC18\bin\Newtonsoft.Json.xml
 C:\My\Doc\Billings\Conferencia 2018\woombcconference2018\WC18\WC18\bin\System.Web.Helpers.xml
 C:\My\Doc\Billings\Conferencia 2018\woombcconference2018\WC18\WC18\bin\System.Web.Mvc.xml
@@ -29,7 +27,6 @@ C:\My\Doc\Billings\Conferencia 2018\woombcconference2018\WC18\WC18\bin\System.We
 C:\My\Doc\Billings\Conferencia 2018\woombcconference2018\WC18\WC18\bin\System.Net.Http.Formatting.xml
 C:\My\Doc\Billings\Conferencia 2018\woombcconference2018\WC18\WC18\bin\System.Web.Http.xml
 C:\My\Doc\Billings\Conferencia 2018\woombcconference2018\WC18\WC18\bin\System.Web.Http.WebHost.xml
-C:\My\Doc\Billings\Conferencia 2018\woombcconference2018\WC18\WC18\obj\Debug\WC18.csprojResolveAssemblyReference.cache
 C:\My\Doc\Billings\Conferencia 2018\woombcconference2018\WC18\WC18\obj\Debug\WC18.dll
 C:\My\Doc\Billings\Conferencia 2018\woombcconference2018\WC18\WC18\obj\Debug\WC18.pdb
 C:\Users\Christian\Documents\GitHub\woombcconference2018\WC18\WC18\bin\WC18.dll.config
@@ -64,3 +61,9 @@ C:\Users\Christian\Documents\GitHub\woombcconference2018\WC18\WC18\bin\System.We
 C:\Users\Christian\Documents\GitHub\woombcconference2018\WC18\WC18\obj\Debug\WC18.csprojResolveAssemblyReference.cache
 C:\Users\Christian\Documents\GitHub\woombcconference2018\WC18\WC18\obj\Debug\WC18.dll
 C:\Users\Christian\Documents\GitHub\woombcconference2018\WC18\WC18\obj\Debug\WC18.pdb
+C:\My\Doc\Billings\Conferencia 2018\woombcconference2018\WC18\WC18\obj\Debug\WC18.csproj.CoreCompileInputs.cache
+C:\My\Doc\Billings\Conferencia 2018\woombcconference2018\WC18\WC18\obj\Debug\WC18.csproj.GenerateResource.Cache
+C:\My\Doc\Billings\Conferencia 2018\woombcconference2018\WC18\WC18\obj\Debug\WC18.MainResources.resources
+C:\My\Doc\Billings\Conferencia 2018\woombcconference2018\WC18\WC18\bin\en\WC18.resources.dll
+C:\My\Doc\Billings\Conferencia 2018\woombcconference2018\WC18\WC18\obj\Debug\WC18.MainResources.en.resources
+C:\My\Doc\Billings\Conferencia 2018\woombcconference2018\WC18\WC18\obj\Debug\en\WC18.resources.dll
