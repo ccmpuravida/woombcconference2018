@@ -64,13 +64,15 @@
 						<header>
 							<h2>Registration</h2>
 							<p>Reserve your space in the International Conference, Costa Rica 2018.</p>
+							<p>PAGE UNDER CONSTRUCTION</p>
 						</header>
 						<section class="wrapper style5">
 							<div class="inner">
 
 								<section>
 									<h4>Instructions</h4>
-									<p>Complete the form below. <br/>You can select the events which you want to participate. <br/>  Once the form is sent, we will provide you with the payment options.  The registration will be confirmed once the payment is received.</p>
+									<p>This page is under construction, keep checking for updates.</p>
+									<!--<p>Complete the form below. <br/>You can select the events which you want to participate. <br/>  Once the form is sent, we will provide you with the payment options.  The registration will be confirmed once the payment is received.</p>-->
 									<hr />
 								</section>
 								<section>
@@ -235,12 +237,16 @@
 											<div class="3u 12u$(small)">
 											</div>
 											<div class="3u 12u$(small)">
-												<input type="checkbox" id="form-alojamiento" name="form-alojamiento">
-												<label for="form-alojamiento">Lodging (In the comments provide the number of days).</label>
-											</div>
-											<div class="3u 12u$(small)">
 												<input type="checkbox" id="form-tour" name="form-tour">
 												<label for="form-tour">Half-day tour</label>
+											</div>
+											<div class="3u 12u$(small)">
+												<input type="checkbox" id="form-alojamiento" name="form-alojamiento">
+												<label for="form-alojamiento">Lodging (please enter number of nights)</label>
+											</div>
+											<div class="3u 12u$(small)">
+												<input type="text" id="form-dias" name="form-dias" size="2" maxlength="2" default="0">
+												<label for="form-dias">Lodging Nights</label>
 											</div>
 											<div class="3u$ 12u$(small)">
 											</div>
@@ -250,9 +256,9 @@
 											<div class="12u$">
 												Price before January, 31<sup>st</sup>, 2018 <strong><span id="precioTemp">0</span> USD</strong>. Price after January, 31<sup>st</sup>, 2018 <strong><span id="precioTard">0</span> USD</strong>.
 											</div>
-											<div class="12u$">
+											<!--<div class="12u$">
 												If you choose to use our lodging, you need to add 40 USD per night to the price above.<br /> Remember to indicate the number of days in the comments.
-											</div>
+											</div>-->
 											<div class="12u$">
 												<ul class="actions">
 													<li><input type="submit" value="Submit" class="special" /></li>
@@ -290,10 +296,11 @@
 			<script src="assets/js/main.js"></script>
 
 		<script language="javascript">
-		$(function() {
-
 			var total1=0;
 			var total2=0;
+			var alojamiento=0;
+		$(function() {
+
 
 			$('#form-conferencia, #form-entrenamientos, #form-cena, #form-alojamiento, #form-tour').on('click', function(e) {
 				//e.preventDefault(); /* prevent anchor from firing */
@@ -336,22 +343,62 @@
 						total2 = total2 - 75;
 					}
 				}
+				else if (option == 'form-alojamiento')
+				{
+					var valuedias = $('#form-dias').val();
+					alojamiento = valuedias*40;
+					if($(this).is(':checked')){
+
+						total1 = total1 + alojamiento;
+						total2 = total2 + alojamiento;
+					}
+					else{
+						total1 = total1 - alojamiento;
+						total2 = total2 - alojamiento;
+						alojamiento=0;
+					}
+				}
 
 				$('#precioTemp').text(total1);
 				$('#precioTard').text(total2);
 
 			});
 
-			$('#reset').on('click', function(e) {
+		});
 
-				total1=0; total2=0;
-				$('#precioTemp').text(0);
-				$('#precioTard').text(0);
+		$(function() {
+
+			$('#form-dias').on('change', function(e) {
+
+				var valuedias = $('#form-dias').val();
+				total1 = total1 - alojamiento;
+				total2 = total2 - alojamiento;
+				if($('#form-alojamiento').is(':checked')){
+					alojamiento=(valuedias*40);
+					total1 = total1 + alojamiento;
+					total2 = total2 + alojamiento;
+				}
+				$('#precioTemp').text(total1);
+				$('#precioTard').text(total2);
 
 			});
 
+		});
+
+		$(function() {
+
+			$('#reset').on('click', function(e) {
+
+				total1 = 0;
+				total2 = 0;
+				alojamiento=0;
+				$('#precioTemp').text(total1);
+				$('#precioTard').text(total2);
+
+			});
 
 		});
+
 		</script>
 
 	</body>
