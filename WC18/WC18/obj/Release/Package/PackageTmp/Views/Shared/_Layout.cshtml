@@ -27,6 +27,13 @@
     <meta name="msapplication-TileColor" content="#FFFFFF">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="msapplication-config" content="/browserconfig.xml">
+
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#2e3842">
+
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+
     @*@Styles.Render("~/Content/css")
         @Scripts.Render("~/bundles/modernizr")*@
 
@@ -46,11 +53,17 @@
                         <a href="#menu" class="menuToggle"><span>Menu</span></a>
                         <div id="menu">
                             <ul>
-                                <li>@Html.ActionLink("Inicio", "Index")</li>
-                                <li>@Html.ActionLink("Programa", "Program")</li>
-                                <li>@Html.ActionLink("Inscripción", "Registration")</li>
-                                <li>@Html.ActionLink("Panelistas", "Speakers")</li>
-                                <li>@Html.ActionLink("English version", "ChangeLanguage")</li>
+                                <li>@Html.ActionLink(WC18.MainResources.Home, "Index")</li>
+                                <li>@Html.ActionLink(WC18.MainResources.Program, "Program")</li>
+                                <li>@Html.ActionLink(WC18.MainResources.Registration, "Registration")</li>
+                                <li>@Html.ActionLink(WC18.MainResources.Speakers, "Speakers")</li>
+                                @{
+                                    string action = ViewContext.RouteData.Values["action"] as string ?? "Index";
+                                }
+                                <li>
+                                    @Html.ActionLink(WC18.MainResources.VersionComplement, action, 
+                                   new { lang = WC18.MainResources.LangComplement })
+                                </li>
                             </ul>
                         </div>
                     </li>
@@ -68,8 +81,9 @@
             </ul>
             <ul class="copyright">
                 <li>&copy; WOOMB Costa Rica</li>
-                <li>Base design: <a href="http://html5up.net">HTML5 UP</a></li>
-                <li>Customized by WOOMB Costa Rica</li>
+                <li>@WC18.MainResources.BaseDesign: <a href="http://html5up.net">HTML5 UP</a></li>
+                <li>@WC18.MainResources.Customized WOOMB Costa Rica</li>
+                <li>@WC18.MainResources.Hosting: <a href="http://trinosystems.com">TrinoSystems</a></li>
             </ul>
         </footer>
 
