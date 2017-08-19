@@ -6,7 +6,8 @@ WC18/.vs/config/applicationhost.config
 WC18/.vs/WC18/v15/.suo
 WC18/WC18/bin/WC18.dll
 WC18/WC18/bin/WC18.pdb
-WC18/WC18/obj/Debug/**
+WC18/WC18/obj/**
+WC18/WC18/bin/**
 /WC18/WC18/bin/Release/PublishOutput/**
 WC18/.vs/config/applicationhost.config
 WC18/.vs/config/applicationhost.config
@@ -19,3 +20,5 @@ WC18/WC18/obj/Release/TempPE/MainResources.Designer.cs.dll
 WC18/WC18/obj/Release/TempPE/MainResources.en.Designer.cs.dll
 WC18/WC18/obj/Release/WC18.csproj.GenerateResource.Cache
 WC18/WC18/obj/Release/WC18.dll
+WC18/.vs/WC18/v15/.suo
+WC18/.vs/WC18/v15/.suo

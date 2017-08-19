@@ -117,11 +117,17 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Affiliates" xml:space="preserve">
+    <value>Países afiliados</value>
+  </data>
   <data name="BaseDesign" xml:space="preserve">
     <value>Diseño Base</value>
   </data>
   <data name="Customized" xml:space="preserve">
     <value>Personalizado por</value>
+  </data>
+  <data name="FertilityScience" xml:space="preserve">
+    <value>Ciencia de la fertilidad</value>
   </data>
   <data name="Home" xml:space="preserve">
     <value>Inicio</value>
@@ -147,10 +153,19 @@
   <data name="Sponsors" xml:space="preserve">
     <value>Patrocinadores</value>
   </data>
+  <data name="TeacherEducation" xml:space="preserve">
+    <value>Entrenamientos de instructores</value>
+  </data>
   <data name="Version" xml:space="preserve">
     <value>Versión Español</value>
   </data>
   <data name="VersionComplement" xml:space="preserve">
     <value>English version</value>
+  </data>
+  <data name="WOOMBInternational" xml:space="preserve">
+    <value>WOOMB Internacional</value>
+  </data>
+  <data name="WOOMBLA" xml:space="preserve">
+    <value>WOOMB Latinoamérica</value>
   </data>
 </root>

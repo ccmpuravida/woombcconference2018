@@ -61,6 +61,15 @@ namespace WC18 {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Países afiliados.
+        /// </summary>
+        public static string Affiliates {
+            get {
+                return ResourceManager.GetString("Affiliates", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Diseño Base.
         /// </summary>
         public static string BaseDesign {
@@ -75,6 +84,15 @@ namespace WC18 {
         public static string Customized {
             get {
                 return ResourceManager.GetString("Customized", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Ciencia de la fertilidad.
+        /// </summary>
+        public static string FertilityScience {
+            get {
+                return ResourceManager.GetString("FertilityScience", resourceCulture);
             }
         }
         
@@ -151,6 +169,15 @@ namespace WC18 {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Entrenamientos de instructores.
+        /// </summary>
+        public static string TeacherEducation {
+            get {
+                return ResourceManager.GetString("TeacherEducation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Versión Español.
         /// </summary>
         public static string Version {
@@ -165,6 +192,24 @@ namespace WC18 {
         public static string VersionComplement {
             get {
                 return ResourceManager.GetString("VersionComplement", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a WOOMB Internacional.
+        /// </summary>
+        public static string WOOMBInternational {
+            get {
+                return ResourceManager.GetString("WOOMBInternational", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a WOOMB Latinoamérica.
+        /// </summary>
+        public static string WOOMBLA {
+            get {
+                return ResourceManager.GetString("WOOMBLA", resourceCulture);
             }
         }
     }
