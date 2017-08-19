@@ -132,6 +132,9 @@
   <data name="LangComplement" xml:space="preserve">
     <value>es</value>
   </data>
+  <data name="LinkSponsors" xml:space="preserve">
+    <value>Information here</value>
+  </data>
   <data name="Program" xml:space="preserve">
     <value>Program</value>
   </data>
@@ -140,6 +143,9 @@
   </data>
   <data name="Speakers" xml:space="preserve">
     <value>Speakers</value>
+  </data>
+  <data name="Sponsors" xml:space="preserve">
+    <value>Sponsors</value>
   </data>
   <data name="Version" xml:space="preserve">
     <value>English version</value>

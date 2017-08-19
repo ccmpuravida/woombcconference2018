@@ -290,6 +290,8 @@
     <Content Include="Views\Home\Program.en.cshtml" />
     <Content Include="Views\Home\Registration.en.cshtml" />
     <Content Include="Views\Home\Speakers.en.cshtml" />
+    <Content Include="Views\Home\SponsorInfo.cshtml" />
+    <Content Include="Views\Home\SponsorInfo.en.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

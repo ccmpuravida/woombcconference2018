@@ -129,9 +129,9 @@
             <p></p>
         </header>
         <ul class="features">
-            <li class="icon fa-paper-plane-o">
-                <h3>Interested in sponsoring</h3>
-                <p>Write to depmetodosnaturales@gmail.com to have details of sponsorship packages.</p>
+            <li class="icon fa-handshake-o">
+                <h3>Interested in sponsoring?</h3>
+                <p>@Html.ActionLink(WC18.MainResources.LinkSponsors, "SponsorInfo"). E-mail to depmetodosnaturales@gmail.com for more details.</p>
             </li>
             <li class="icon fa-laptop">
                 <h3><a href="http://www.trinosystems.com">TrinoSystems S.A.</a></h3>
@@ -157,7 +157,7 @@
             <p>Register for the conference or send us your questions.</p>
         </header>
         <ul class="actions vertical">
-            <li><a href="inscripcion_en.html" class="button fit special">Register</a></li>
+            <li class="button fit special">@Html.ActionLink(WC18.MainResources.Registration, "Registration")</li>
             <li><a href="#" class="button fit">Contact Us</a></li>
         </ul>
     </div>

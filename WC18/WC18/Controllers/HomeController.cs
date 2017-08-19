@@ -34,6 +34,12 @@ namespace WC18.Controllers
             return View(vn);
         }
 
+        public ActionResult SponsorInfo(string lang = "")
+        {
+            string vn = "SponsorInfo" + DefineUICulture(lang);
+            return View(vn);
+        }
+
         private string DefineUICulture(string lang)
         {
             if (lang != null && !string.IsNullOrWhiteSpace(lang))
