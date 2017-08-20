@@ -97,6 +97,15 @@ namespace WC18 {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Conferencia WOOMB.
+        /// </summary>
+        public static string Headerhome {
+            get {
+                return ResourceManager.GetString("Headerhome", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Inicio.
         /// </summary>
         public static string Home {
