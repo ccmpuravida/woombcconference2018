@@ -2,6 +2,8 @@
 var total2 = 0;
 var alojamiento = 0;
 $(function () {
+    var $header = $('#header');
+    $header.removeClass('alt');
 
     $('#form-conferencia, #form-entrenamientos, #form-cena, #form-alojamiento, #form-tour').on('click', function (e) {
         //e.preventDefault(); /* prevent anchor from firing */
