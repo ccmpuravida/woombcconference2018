@@ -2,6 +2,8 @@
     $('.tab-content:not(:first)').hide(); /* hide all divs except first */
     $('.button:first').addClass('special'); /* add a class to the first and active div */
     $('.tab-content:first').addClass('active'); /* add a class to the first and active div */
+    var $header = $('#header');
+    $header.removeClass('alt');
 
     $('#viernes, #sabado, #domingo, #lunes, #martes, #miercoles').on('click', function (e) {
         //e.preventDefault(); /* prevent anchor from firing */
