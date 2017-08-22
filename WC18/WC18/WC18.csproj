@@ -270,6 +270,7 @@
     <Content Include="Scripts\respond.matchmedia.addListener.js" />
     <Content Include="Scripts\respond.matchmedia.addListener.min.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="sitemap.xml" />
     <Content Include="videos\casa_pastoral.mp4" />
     <Content Include="videos\CostaRica_Message_Directors.mp4" />
     <Content Include="Web.config" />
@@ -293,10 +294,12 @@
     <Content Include="Views\Home\Speakers.en.cshtml" />
     <Content Include="Views\Home\SponsorInfo.cshtml" />
     <Content Include="Views\Home\SponsorInfo.en.cshtml" />
+    <Content Include="Web.sitemap" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\Map\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

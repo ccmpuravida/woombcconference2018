@@ -53,7 +53,7 @@
 <section id="two" class="wrapper alt style2">
     <section class="spotlight">
         <div class="image"><img src="/images/charlas.jpg" alt="" /></div><div class="content">
-            <h2>Charlas inspiradoras</h2>
+            <h2>@Html.ActionLink(WC18.MainResources.InspiringPresentations, "Speakers")</h2>
             <p>
                 Si no conoces qu&eacute; es el M&eacute;todo de la Ovulaci&oacute;n Billings aqu&iacute; podr&aacute;s aprender lo b&aacute;sico y adem&aacute;s recibir entrenamiento.
                 <br />Ponte al tanto con las &uacute;ltimas investigaciones realizadas.
@@ -62,7 +62,7 @@
     </section>
     <section class="spotlight">
         <div class="image"><img src="/images/entrenamientos.jpg" alt="" /></div><div class="content">
-            <h2>Talleres</h2>
+            <h2>@Html.ActionLink(WC18.MainResources.Workshops, "Program")</h2>
             <p>
                 Se impartir&aacute;n los siguientes entrenamientos, que se realizar&aacute;n desde la tarde del domingo 29 de abril, hasta la tarde del mi&eacute;rcoles 2 de mayo:
                 <ul>
@@ -102,27 +102,31 @@
         <ul class="features">
             <li class="icon fa-video-camera">
                 <h3>Instalaciones para entrenamientos</h3>
-                <!--<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>-->
-                <video class="videoWoombcr" height="112" controls>
-                    <source src="/videos/casa_pastoral.mp4" type="video/mp4">
-                    Su navegador no soporta videos
-                </video>
+                <p>Conoce el sitio donde se realizarán los entrenamientos de instructores.</p>
+                <div class="video-container">
+                    <iframe width="250" height="200" src="https://www.youtube.com/embed/4lubYoPfuX8" frameborder="0" allowfullscreen></iframe>
+                </div>
             </li>
-            <li class="icon fa-picture-o">
-                <h3>Instalaciones de Conferencia</h3>
-                <p>Ver galer&iacute;a de imagenes</p>
+            <li class="icon fa-video-camera">
+                <h3>¡Mira algunos testimonios!</h3>
+                <p>Testimonios sobre el Método de Ovulación Billings&reg;</p>
+                <div class="video-container">
+                    <iframe width="250" height="200" src="https://www.youtube.com/embed/DonSvwSXTAY" frameborder="0" allowfullscreen></iframe>
+                </div>
             </li>
             <li class="icon fa-video-camera">
                 <h3>Invitaci&oacute;n a Congreso 2018</h3>
-                <p>Mira la invitaci&oacute;n de parte de coordinadores de WOOMB Costa Rica.</p>
-            </li>
+                <p>Mira la invitaci&oacute;n de parte de los coordinadores de WOOMB Costa Rica.</p>
+                <div class="video-container">
+                    <iframe width="250" height="200" src="https://www.youtube.com/embed/ZU1w1bHq-vU" frameborder="0" allowfullscreen></iframe>
+                </div>
+</li>
             <li class="icon fa-video-camera">
                 <h3>Invitaci&oacute;n a Congreso 2018</h3>
                 <p>Mira la invitaci&oacute;n de las directoras de WOOMB International.</p>
-                <video class="videoWoombcr" height="112" controls>
-                    <source src="/videos/CostaRica_Message_Directors.mp4" type="video/mp4">
-                    Su navegador no soporta videos
-                </video>
+                <div class="video-container">
+                    <iframe width="250" height="200" src="https://www.youtube.com/embed/wmtJVu0y6Ok" frameborder="0" allowfullscreen></iframe>
+                </div>
             </li>
         </ul>
         <header class="major">

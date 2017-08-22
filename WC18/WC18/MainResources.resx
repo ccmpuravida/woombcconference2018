@@ -138,6 +138,9 @@
   <data name="Hosting" xml:space="preserve">
     <value>Hospedaje cortesía de</value>
   </data>
+  <data name="InspiringPresentations" xml:space="preserve">
+    <value>Charlas Inspiradoras</value>
+  </data>
   <data name="LangComplement" xml:space="preserve">
     <value>en</value>
   </data>
@@ -170,5 +173,8 @@
   </data>
   <data name="WOOMBLA" xml:space="preserve">
     <value>WOOMB Latinoamérica</value>
+  </data>
+  <data name="Workshops" xml:space="preserve">
+    <value>Talleres</value>
   </data>
 </root>

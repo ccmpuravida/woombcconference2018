@@ -80,7 +80,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/14/2017 22:29:06</publishTime>
     </File>
     <File Include="assets/css/main.css">
-      <publishTime>08/19/2017 09:46:46</publishTime>
+      <publishTime>08/20/2017 21:48:33</publishTime>
     </File>
     <File Include="assets/fonts/fontawesome-webfont.eot">
       <publishTime>08/16/2017 21:05:11</publishTime>
@@ -155,7 +155,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/14/2017 22:29:30</publishTime>
     </File>
     <File Include="bin/en/WC18.resources.dll">
-      <publishTime>08/19/2017 20:30:03</publishTime>
+      <publishTime>08/21/2017 22:32:57</publishTime>
     </File>
     <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
       <publishTime>07/25/2017 16:45:52</publishTime>
@@ -341,10 +341,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/14/2017 22:29:31</publishTime>
     </File>
     <File Include="bin/WC18.dll">
-      <publishTime>08/19/2017 20:30:02</publishTime>
+      <publishTime>08/21/2017 22:32:57</publishTime>
     </File>
     <File Include="bin/WC18.pdb">
-      <publishTime>08/19/2017 20:30:02</publishTime>
+      <publishTime>08/21/2017 22:32:57</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
       <publishTime>08/14/2017 22:29:33</publishTime>
@@ -428,7 +428,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/14/2017 22:29:18</publishTime>
     </File>
     <File Include="images/charlas.jpg">
-      <publishTime>08/14/2017 22:29:18</publishTime>
+      <publishTime>05/03/2017 21:27:04</publishTime>
     </File>
     <File Include="images/congresos2.png">
       <publishTime>08/14/2017 22:29:18</publishTime>
@@ -440,7 +440,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/14/2017 22:29:17</publishTime>
     </File>
     <File Include="images/entrenamientos.jpg">
-      <publishTime>08/14/2017 22:29:19</publishTime>
+      <publishTime>11/02/2016 08:28:38</publishTime>
     </File>
     <File Include="images/FEMMfb-pilarvigilheadshot.png">
       <publishTime>08/14/2017 22:29:17</publishTime>
@@ -595,6 +595,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Scripts/respond.min.js">
       <publishTime>08/14/2017 22:29:05</publishTime>
     </File>
+    <File Include="sitemap.xml">
+      <publishTime>08/21/2017 22:31:41</publishTime>
+    </File>
     <File Include="videos/casa_pastoral.mp4">
       <publishTime>08/14/2017 22:29:30</publishTime>
     </File>
@@ -605,10 +608,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/14/2017 22:29:05</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>08/18/2017 18:51:10</publishTime>
+      <publishTime>08/21/2017 19:24:08</publishTime>
     </File>
     <File Include="Views/Home/Index.en.cshtml">
-      <publishTime>08/19/2017 09:24:38</publishTime>
+      <publishTime>08/21/2017 19:41:00</publishTime>
     </File>
     <File Include="Views/Home/Program.cshtml">
       <publishTime>08/18/2017 15:44:46</publishTime>
@@ -647,7 +650,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/14/2017 22:29:05</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>08/18/2017 19:59:25</publishTime>
+      <publishTime>08/21/2017 21:36:48</publishTime>
+    </File>
+    <File Include="Web.sitemap">
+      <publishTime>08/21/2017 22:16:53</publishTime>
     </File>
   </ItemGroup>
 </Project>

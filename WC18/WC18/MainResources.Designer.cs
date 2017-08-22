@@ -124,6 +124,15 @@ namespace WC18 {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Charlas Inspiradoras.
+        /// </summary>
+        public static string InspiringPresentations {
+            get {
+                return ResourceManager.GetString("InspiringPresentations", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a en.
         /// </summary>
         public static string LangComplement {
@@ -219,6 +228,15 @@ namespace WC18 {
         public static string WOOMBLA {
             get {
                 return ResourceManager.GetString("WOOMBLA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Talleres.
+        /// </summary>
+        public static string Workshops {
+            get {
+                return ResourceManager.GetString("Workshops", resourceCulture);
             }
         }
     }
