@@ -138,6 +138,15 @@
   <data name="Hosting" xml:space="preserve">
     <value>Hospedaje cortesía de</value>
   </data>
+  <data name="IdNumberRequired" xml:space="preserve">
+    <value>El número de ID es requerido.</value>
+  </data>
+  <data name="IdNumberStringLength" xml:space="preserve">
+    <value>El número de ID debe tener entre {2} y {1} caracteres.</value>
+  </data>
+  <data name="IdTypeRequired" xml:space="preserve">
+    <value>El tipo de ID es requerido.</value>
+  </data>
   <data name="InspiringPresentations" xml:space="preserve">
     <value>Charlas Inspiradoras</value>
   </data>

@@ -139,6 +139,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>MainResources.resx</DependentUpon>
     </Compile>
+    <Compile Include="Models\Registration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -295,10 +296,10 @@
     <Content Include="Views\Home\SponsorInfo.cshtml" />
     <Content Include="Views\Home\SponsorInfo.en.cshtml" />
     <Content Include="Web.sitemap" />
+    <Content Include="Views\Home\RegistrationConfirm.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
     <Folder Include="Views\Map\" />
   </ItemGroup>
   <ItemGroup>

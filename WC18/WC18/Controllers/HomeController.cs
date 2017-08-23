@@ -22,10 +22,40 @@ namespace WC18.Controllers
             return View(vn);
         }
 
+        [HttpGet]
         public ActionResult Registration(string lang = "")
         {
             string vn = "Registration" + DefineUICulture(lang);
             return View(vn);
+        }
+
+        [ValidateAntiForgeryToken]
+        [HttpPost]
+        public ActionResult Registration(WC18.Models.Registration model)
+        {
+            if (ModelState.IsValid)
+            {
+                // TODO Acceso a datos
+
+                // Todo listo se pasan los datos a la confirmación de registro
+                TempData["Registration"] = model;
+                return RedirectToAction("RegistrationConfirm");
+            }
+
+            string vn = "Registration" + DefineUICulture("");
+            return View(vn, model);
+        }
+
+        public ActionResult RegistrationConfirm()
+        {
+            var model = (WC18.Models.Registration)TempData["Registration"];
+
+            if (model == null)
+            {
+                return RedirectToAction("Registration");
+            }
+
+            return View(model);
         }
 
         public ActionResult Speakers(string lang = "")
@@ -70,7 +100,7 @@ namespace WC18.Controllers
 
             _cookie.Expires = DateTime.Now.AddYears(1);
             HttpContext.Response.SetCookie(_cookie);
-            
+
             // Se retorna el sufijo para el nombre de la vista
             return (Thread.CurrentThread.CurrentUICulture.TwoLetterISOLanguageName == "en") ? ".en" : ""; ;
         }
