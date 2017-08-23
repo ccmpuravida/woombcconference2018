@@ -31,8 +31,6 @@ bld/
 
 
 # Solution and projects
-WC18/.vs/WC18/v15/.suo
-WC18/.vs/WC18/v15/.suo
-
-WC18/.vs/WC18/v15/.suo
-
+WC18/.vs/**/
+WC18/WC18/bin/**/
+WC18/WC18/obj/**/
