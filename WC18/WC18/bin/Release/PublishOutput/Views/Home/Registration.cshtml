@@ -1,4 +1,4 @@
-﻿
+﻿@model WC18.Models.Registration
 @{
     ViewBag.Title = "Inscripción";
 }
@@ -120,19 +120,30 @@
 
             <section>
                 <h4>Formulario</h4>
-                <form method="post" action="#">
+                <form method="post">
+                    @Html.AntiForgeryToken()
+                    @*@Html.ValidationSummary(false)*@
                     <div class="row uniform">
                         <div class=" 6u 12u$(medium)">
                             <div class="select-wrapper">
-                                <select name="form-tipoid" id="form-tipoid">
-                                    <option value="">- Tipo de ID -</option>
-                                    <option value="cedula">C&eacute;dula/ID</option>
-                                    <option value="pasaporte">Pasaporte</option>
-                                </select>
+                                @Html.DropDownListFor(model => model.IdType,
+                               new List<SelectListItem> {
+                                   new SelectListItem() { Value = "", Text = "- Tipo de ID -" },
+                                   new SelectListItem() { Value = "1", Text = "Cédula" },
+                                   new SelectListItem() { Value = "2", Text = "Pasaporte" }
+                               }, new { id = "form-tipoid" })
+                                @*<select name="IdType" id="form-tipoid">
+                                        <option value="">- Tipo de ID -</option>
+                                        <option value="1">C&eacute;dula/ID</option>
+                                        <option value="2">Pasaporte</option>
+                                    </select>*@
                             </div>
+                            @Html.ValidationMessageFor(model => model.IdType, "", new { @class = "val-error" })
                         </div>
                         <div class="6u 12u$(xsmall)">
-                            <input type="text" name="form-idnum" id="form-idnum" value="" placeholder="N&uacute;mero de ID" />
+                            @Html.TextBoxFor(model => model.IdNumber, new { id = "form-idnum", placeholder = "Número de ID" })
+                            @Html.ValidationMessageFor(model => model.IdNumber, "", new { @class = "val-error" })
+                            @*<input type="text" name="form-idnum" id="form-idnum" value="" placeholder="N&uacute;mero de ID" />*@
                         </div>
                         <div class="6u 12u$(xsmall)">
                             <input type="text" name="form-name" id="form-name" value="" placeholder="Nombre" />
@@ -213,7 +224,7 @@
                         </div>-->
                         <div class="12u$">
                             <ul class="actions">
-                                <li><input type="submit" value="Enviar" class="special" disabled/></li>
+                                <li><input type="submit" value="Enviar" class="special" /></li>
                                 <li><input id="reset" type="reset" value="Limpiar" /></li>
                             </ul>
                         </div>
@@ -227,4 +238,6 @@
 
 @section scripts {
     <script src="~/Content/registration.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
 }
