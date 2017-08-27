@@ -135,6 +135,12 @@
   <data name="Home" xml:space="preserve">
     <value>Inicio</value>
   </data>
+  <data name="HomeDesc" xml:space="preserve">
+    <value>Conferencia Internacional del Método de Ovulación Billings, WOOMB, Costa Rica 2018</value>
+  </data>
+  <data name="HomeTitle" xml:space="preserve">
+    <value>Inicio</value>
+  </data>
   <data name="Hosting" xml:space="preserve">
     <value>Hospedaje cortesía de</value>
   </data>

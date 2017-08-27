@@ -13,6 +13,9 @@ namespace WC18.Controllers
         public ActionResult Index(string lang = "")
         {
             string vn = "Index" + DefineUICulture(lang);
+            //string vn = "Index";
+            ViewBag.Title = MainResources.HomeTitle;
+            ViewBag.Description = MainResources.HomeDesc;
             return View(vn);
         }
 
@@ -91,15 +94,17 @@ namespace WC18.Controllers
                 else
                 {
                     // set the culture by the location if not speicified
-                    langHeader = HttpContext.Request.UserLanguages[0];
+                    //langHeader = HttpContext.Request.UserLanguages[0];
+                    langHeader = "en-US";
                     Thread.CurrentThread.CurrentUICulture = CultureInfo.CreateSpecificCulture(langHeader);
                 }
             }
-            // save the location into cookie
-            HttpCookie _cookie = new HttpCookie("WC18.CurrentUICulture", Thread.CurrentThread.CurrentUICulture.Name);
-
-            _cookie.Expires = DateTime.Now.AddYears(1);
-            HttpContext.Response.SetCookie(_cookie);
+                // save the location into cookie
+                HttpCookie _cookie = new HttpCookie("WC18.CurrentUICulture", Thread.CurrentThread.CurrentUICulture.Name)
+                {
+                    Expires = DateTime.Now.AddYears(1)
+                };
+                HttpContext.Response.SetCookie(_cookie);
 
             // Se retorna el sufijo para el nombre de la vista
             return (Thread.CurrentThread.CurrentUICulture.TwoLetterISOLanguageName == "en") ? ".en" : ""; ;
