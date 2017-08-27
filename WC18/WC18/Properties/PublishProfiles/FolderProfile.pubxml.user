@@ -155,7 +155,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/14/2017 22:29:30</publishTime>
     </File>
     <File Include="bin/en/WC18.resources.dll">
-      <publishTime>08/26/2017 22:14:52</publishTime>
+      <publishTime>08/27/2017 16:00:05</publishTime>
     </File>
     <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
       <publishTime>07/25/2017 16:45:52</publishTime>
@@ -341,10 +341,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/14/2017 22:29:31</publishTime>
     </File>
     <File Include="bin/WC18.dll">
-      <publishTime>08/26/2017 22:14:51</publishTime>
+      <publishTime>08/27/2017 16:00:04</publishTime>
     </File>
     <File Include="bin/WC18.pdb">
-      <publishTime>08/26/2017 22:14:51</publishTime>
+      <publishTime>08/27/2017 16:00:04</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
       <publishTime>08/14/2017 22:29:33</publishTime>
@@ -638,7 +638,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/24/2017 18:08:21</publishTime>
     </File>
     <File Include="Views/Home/SponsorInfo.en.cshtml">
-      <publishTime>08/24/2017 18:08:58</publishTime>
+      <publishTime>08/27/2017 16:03:09</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>08/14/2017 22:29:05</publishTime>

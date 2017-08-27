@@ -115,7 +115,7 @@ namespace WC18 {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Conferencia Internacional del Método de Ovulación Billings, WOOMB, Costa Rica 2018.
+        ///   Busca una cadena traducida similar a Conferencia Internacional del Metodo de Ovulacion Billings, WOOMB, Costa Rica 2018. Conferencia WOOMB. WOOMB Conference, Billings Ovulation Method..
         /// </summary>
         public static string HomeDesc {
             get {
