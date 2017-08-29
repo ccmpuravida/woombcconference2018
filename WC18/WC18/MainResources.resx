@@ -135,6 +135,12 @@
   <data name="Home" xml:space="preserve">
     <value>Inicio</value>
   </data>
+  <data name="HomeDesc" xml:space="preserve">
+    <value>Conferencia Internacional del Metodo de Ovulacion Billings, WOOMB, Costa Rica 2018. Conferencia WOOMB. WOOMB Conference, Billings Ovulation Method.</value>
+  </data>
+  <data name="HomeTitle" xml:space="preserve">
+    <value>Inicio</value>
+  </data>
   <data name="Hosting" xml:space="preserve">
     <value>Hospedaje cortesía de</value>
   </data>

@@ -1,6 +1,7 @@
 ﻿@model WC18.Models.Registration
 @{
     ViewBag.Title = "Inscripción";
+    ViewBag.Description = "Conferencia Internacional de WOOMB. Registro, formulario de inscripcion y costos.";
 }
 
 <!-- Main -->
@@ -191,7 +192,7 @@
                         </div>
                         <div class="3u 12u$(small)">
                             <input type="checkbox" id="form-entrenamientos" name="form-entrenamientos">
-                            <label for="form-entrenamientos">Entrenamientos</label>
+                            <label for="form-entrenamientos">Entrenamientos (Indicar en comentarios si básico/actualización o extensión)</label>
                         </div>
                         <div class="3u$ 12u$(small)">
                             <input type="checkbox" id="form-cena" name="form-cena">
@@ -224,7 +225,7 @@
                         </div>-->
                         <div class="12u$">
                             <ul class="actions">
-                                <li><input type="submit" value="Enviar" class="special" /></li>
+                                <li><input type="submit" value="Enviar" class="special" disabled /></li>
                                 <li><input id="reset" type="reset" value="Limpiar" /></li>
                             </ul>
                         </div>
