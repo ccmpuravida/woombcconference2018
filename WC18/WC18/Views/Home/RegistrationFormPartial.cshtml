@@ -1,0 +1,138 @@
+﻿@model WC18.Models.Registration
+
+<section>
+    <h4>@WC18.MainResources.Form</h4>
+    <form method="post">
+        @Html.AntiForgeryToken()
+        @*@Html.ValidationSummary(false)*@
+        <div class="row uniform">
+            <div class=" 6u 12u$(medium)">
+                <div class="select-wrapper">
+                    @Html.DropDownListFor(model => model.IdType,
+                               new List<SelectListItem> {
+                                   new SelectListItem() { Value = "", Text = WC18.MainResources.FormIDType },
+                                   new SelectListItem() { Value = "1", Text = WC18.MainResources.FormGovermentID },
+                                   new SelectListItem() { Value = "2", Text = WC18.MainResources.FormPassport }
+                               }, new { id = "form-tipoid" })
+                </div>
+                @Html.ValidationMessageFor(model => model.IdType, "", new { @class = "val-error" })
+            </div>
+            <div class="6u 12u$(xsmall)">
+                @Html.TextBoxFor(model => model.IdNumber, new { id = "form-idnum", placeholder = @WC18.MainResources.LabelIDNumber })
+                @Html.ValidationMessageFor(model => model.IdNumber, "", new { @class = "val-error" })
+            </div>
+            <div class="6u 12u$(xsmall)">
+                @Html.TextBoxFor(model => model.Name, new { id = "form-name", placeholder = @WC18.MainResources.LabelName })
+                @Html.ValidationMessageFor(model => model.Name, "", new { @class = "val-error" })
+                @*<input type="text" name="form-name" id="form-name" value="" placeholder="Nombre" />*@
+            </div>
+            <div class="6u 12u$(medium) 12u$(xsmall)">
+                @Html.TextBoxFor(model => model.Email, new { id = "form-email", placeholder = @WC18.MainResources.LabelEmail })
+                @Html.ValidationMessageFor(model => model.Email, "", new { @class = "val-error" })
+                @*<input type="email" name="form-email" id="form-email" value="" placeholder="Email" />*@
+            </div>
+            <div class="6u 12u$(xsmall)">
+                @Html.TextBoxFor(model => model.Country, new { id = "form-pais", placeholder = @WC18.MainResources.LabelCountry })
+                @Html.ValidationMessageFor(model => model.Country, "", new { @class = "val-error" })
+                @*<input type="text" name="form-pais" id="form-pais" value="" placeholder="Pais" />*@
+            </div>
+            <div class="6u 12u$(xsmall)">
+                @Html.TextBoxFor(model => model.Telephone, new { id = "form-tel", placeholder = @WC18.MainResources.LabelPhone })
+                @Html.ValidationMessageFor(model => model.Telephone, "", new { @class = "val-error" })
+                @*<input type="text" name="form-tel" id="form-tel" value="" placeholder="Tel&eacute;fono" />*@
+            </div>
+            <p>@WC18.MainResources.LabelIsIntructor</p>
+            <div class="4u 6u(small)">
+                @Html.RadioButtonFor(model => model.IsInstructor, true, new { id = "form-instructor-si", @checked = "checked" })
+                @*<input type="radio" id="form-instructor-si" name="form-instructor" checked>*@
+                <label for="form-instructor-si">@WC18.MainResources.Yes</label>
+            </div>
+            <div class="4u$ 6u$(small)">
+                @Html.RadioButtonFor(model => model.IsInstructor, false, new { id = "form-instructor-no" })
+                @*<input type="radio" id="form-instructor-no" name="form-instructor">*@
+                <label for="form-instructor-no">No</label>
+            </div>
+            <p>@WC18.MainResources.LabelIsUser</p>
+            <div class="4u 6u(small)">
+                @Html.RadioButtonFor(model => model.IsUser, true, new { id = "form-usuario-si", @checked = "checked" })
+                @*<input type="radio" id="form-usuario-si" name="form-usuario" checked>*@
+                <label for="form-usuario-si">@WC18.MainResources.Yes</label>
+            </div>
+            <div class="4u$ 6u$(small)">
+                @Html.RadioButtonFor(model => model.IsUser, false, new { id = "form-usuario-no" })
+                @*<input type="radio" id="form-usuario-no" name="form-usuario">*@
+                <label for="form-usuario-no">No</label>
+            </div>
+            <p>@WC18.MainResources.LabelIsHealth</p>
+            <div class="4u 6u(small)">
+                @Html.RadioButtonFor(model => model.IsHealth, true, new { id = "form-salud-si", @checked = "checked" })
+                @*<input type="radio" id="form-salud-si" name="form-salud" checked>*@
+                <label for="form-salud-si">@WC18.MainResources.Yes</label>
+            </div>
+            <div class="4u$ 6u$(small)">
+                @Html.RadioButtonFor(model => model.IsHealth, false, new { id = "form-salud-no" })
+                @*<input type="radio" id="form-salud-no" name="form-salud">*@
+                <label for="form-salud-no">No</label>
+            </div>
+            <div class="3u 12u$(small)">@WC18.MainResources.LabelInscriptionFor</div>
+            <div class="3u 12u$(small)">
+                @*@Html.CheckBox("ToConference", false, new { id = "form-conferencia" })*@
+                @*<input type="checkbox" id="form-conferencia" name="form-conferencia">*@
+                <label for="form-conferencia">@WC18.MainResources.LabelConference</label>
+            </div>
+            <div class="3u 12u$(small)">
+                @Html.CheckBoxFor(model => model.ToTraining, new { id = "form-entrenamientos" })
+                @*<input type="checkbox" id="form-entrenamientos" name="form-entrenamientos">*@
+                <label for="form-entrenamientos">@WC18.MainResources.LabelTrainings</label>
+            </div>
+            <div class="3u$ 12u$(small)">
+                @Html.CheckBoxFor(model => model.ToDinner, new { id = "form-cena" })
+                @*<input type="checkbox" id="form-cena" name="form-cena">*@
+                <label for="form-cena">@WC18.MainResources.LabelDinner</label>
+            </div>
+            <div class="3u 12u$(small)">
+            </div>
+            <div class="3u 12u$(small)">
+                @Html.CheckBoxFor(model => model.ToTour, new { id = "form-tour" })
+                @*<input type="checkbox" id="form-tour" name="form-tour">*@
+                <label for="form-tour">@WC18.MainResources.LabelTour</label>
+            </div>
+            <div class="3u 12u$(small)">
+                @Html.CheckBoxFor(model => model.ToHost, new { id = "form-alojamiento" })
+                @*<input type="checkbox" id="form-alojamiento" name="form-alojamiento">*@
+                <label for="form-alojamiento">@WC18.MainResources.LabelHost</label>
+            </div>
+            <div class="3u 12u$(small)">
+                @Html.TextBoxFor(model => model.ToHostDays, new { id = "form-dias" })
+                @Html.ValidationMessageFor(model => model.ToHostDays, "", new { @class = "val-error" })
+                @*<input type="text" id="form-dias" name="form-dias" size="2" maxlength="2" default="0">*@
+                <label for="form-dias">@WC18.MainResources.LabelHostDays</label>
+            </div>
+            <div class="3u$ 12u$(small)">
+            </div>
+            <div class="12u$">
+                @Html.TextAreaFor(model => model.Comments, new { id = "form-comments", placeholder = @WC18.MainResources.LabelComments, rows = 6 })
+                @Html.ValidationMessageFor(model => model.Comments, "", new { @class = "val-error" })
+                @*<textarea name="form-comments" id="form-comments" placeholder="Comentarios" rows="6"></textarea>*@
+            </div>
+            <div class="12u$">
+                Precio antes del 31/1/2017 <strong><span id="precioTemp">0</span> USD</strong>. Precio despu&eacute;s 31/1/2017 <strong><span id="precioTard">0</span> USD</strong>.
+            </div>
+            <!--<div class="12u$">
+                Si elige utilizar alojamiento, debe sumar 40 USD por noche de alojamiento al precio arriba indicado. <br /> Recuerde indicar el n&uacute;mero de noches.
+            </div>-->
+            <div class="12u$">
+                <ul class="actions">
+                    <li><input type="submit" value="Enviar" class="special" disabled/></li>
+                    <li><input id="reset" type="reset" value="Limpiar" /></li>
+                </ul>
+            </div>
+        </div>
+    </form>
+</section>
+
+@section scripts {
+    <script src="~/Content/registration.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+}
