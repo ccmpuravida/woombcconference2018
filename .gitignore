@@ -36,3 +36,5 @@ WC18/WC18/bin/**/
 WC18/WC18/obj/**/
 *.pdb
 *.dll
+*.ide
+*.cache
