@@ -78,11 +78,17 @@
             <div class="3u 12u$(small)">
                 @*@Html.CheckBox("ToConference", false, new { id = "form-conferencia" })*@
                 @*<input type="checkbox" id="form-conferencia" name="form-conferencia">*@
+                
+                <input type="checkbox"
+                       id="form-conferencia"
+                       name="@Html.NameFor(model => model.ToConference)"
+                       value="true"
+                       />
                 <label for="form-conferencia">@WC18.MainResources.LabelConference</label>
             </div>
-            <div class="3u 12u$(small)">
-                @Html.CheckBoxFor(model => model.ToTraining, new { id = "form-entrenamientos" })
-                @*<input type="checkbox" id="form-entrenamientos" name="form-entrenamientos">*@
+    <div class="3u 12u$(small)">
+        @Html.CheckBoxFor(model => model.ToTraining, new { id = "form-entrenamientos" })
+        @*<input type="checkbox" id="form-entrenamientos" name="form-entrenamientos">*@
                 <label for="form-entrenamientos">@WC18.MainResources.LabelTrainings</label>
             </div>
             <div class="3u$ 12u$(small)">
@@ -130,9 +136,3 @@
         </div>
     </form>
 </section>
-
-@section scripts {
-    <script src="~/Content/registration.js"></script>
-    <script src="~/Scripts/jquery.validate.min.js"></script>
-    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
-}
