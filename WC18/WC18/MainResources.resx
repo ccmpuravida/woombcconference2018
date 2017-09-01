@@ -129,6 +129,18 @@
   <data name="FertilityScience" xml:space="preserve">
     <value>Ciencia de la fertilidad</value>
   </data>
+  <data name="Form" xml:space="preserve">
+    <value>Formulario</value>
+  </data>
+  <data name="FormGovermentID" xml:space="preserve">
+    <value>Cédula</value>
+  </data>
+  <data name="FormIDType" xml:space="preserve">
+    <value>- Tipo de ID -</value>
+  </data>
+  <data name="FormPassport" xml:space="preserve">
+    <value>Pasaporte</value>
+  </data>
   <data name="Headerhome" xml:space="preserve">
     <value>Conferencia WOOMB</value>
   </data>
@@ -155,6 +167,54 @@
   </data>
   <data name="InspiringPresentations" xml:space="preserve">
     <value>Charlas Inspiradoras</value>
+  </data>
+  <data name="LabelComments" xml:space="preserve">
+    <value>Comentarios</value>
+  </data>
+  <data name="LabelConference" xml:space="preserve">
+    <value>Conferencia</value>
+  </data>
+  <data name="LabelCountry" xml:space="preserve">
+    <value>País</value>
+  </data>
+  <data name="LabelDinner" xml:space="preserve">
+    <value>Cena</value>
+  </data>
+  <data name="LabelEmail" xml:space="preserve">
+    <value>Correo electrónico</value>
+  </data>
+  <data name="LabelHost" xml:space="preserve">
+    <value>Alojamiento (indicar número de noches)</value>
+  </data>
+  <data name="LabelHostDays" xml:space="preserve">
+    <value>Días Alojamiento</value>
+  </data>
+  <data name="LabelIDNumber" xml:space="preserve">
+    <value>Número de ID</value>
+  </data>
+  <data name="LabelInscriptionFor" xml:space="preserve">
+    <value>Se inscribe para:</value>
+  </data>
+  <data name="LabelIsHealth" xml:space="preserve">
+    <value>¿Trabaja en sector salud?</value>
+  </data>
+  <data name="LabelIsIntructor" xml:space="preserve">
+    <value>¿Es Intructor?</value>
+  </data>
+  <data name="LabelIsUser" xml:space="preserve">
+    <value>¿Es usuario?</value>
+  </data>
+  <data name="LabelName" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="LabelPhone" xml:space="preserve">
+    <value>Teléfono</value>
+  </data>
+  <data name="LabelTour" xml:space="preserve">
+    <value>Tour de medio día</value>
+  </data>
+  <data name="LabelTrainings" xml:space="preserve">
+    <value>Entrenamientos (Indicar en comentarios si básico/actualización o extensión)</value>
   </data>
   <data name="LangComplement" xml:space="preserve">
     <value>en</value>
@@ -191,5 +251,8 @@
   </data>
   <data name="Workshops" xml:space="preserve">
     <value>Talleres</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Sí</value>
   </data>
 </root>

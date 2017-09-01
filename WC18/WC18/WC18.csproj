@@ -297,6 +297,7 @@
     <Content Include="Views\Home\SponsorInfo.en.cshtml" />
     <Content Include="Web.sitemap" />
     <Content Include="Views\Home\RegistrationConfirm.cshtml" />
+    <Content Include="Views\Home\RegistrationFormPartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
