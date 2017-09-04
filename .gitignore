@@ -40,3 +40,4 @@ WC18/WC18/obj/**/
 *.cache
 *.config
 WC18/WC18/bin/WC18.pdb
+WC18/.vs/WC18/v15/sqlite3/storage.ide
