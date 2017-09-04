@@ -76,36 +76,25 @@
             </div>
             <div class="3u 12u$(small)">@WC18.MainResources.LabelInscriptionFor</div>
             <div class="3u 12u$(small)">
-                @*@Html.CheckBox("ToConference", false, new { id = "form-conferencia" })*@
-                @*<input type="checkbox" id="form-conferencia" name="form-conferencia">*@
-                
-                <input type="checkbox"
-                       id="form-conferencia"
-                       name="@Html.NameFor(model => model.ToConference)"
-                       value="true"
-                       />
+                <input type="checkbox" id="form-conferencia" name="ToConference" value="true" />
                 <label for="form-conferencia">@WC18.MainResources.LabelConference</label>
             </div>
-    <div class="3u 12u$(small)">
-        @Html.CheckBoxFor(model => model.ToTraining, new { id = "form-entrenamientos" })
-        @*<input type="checkbox" id="form-entrenamientos" name="form-entrenamientos">*@
+            <div class="3u 12u$(small)">
+                <input type="checkbox" id="form-entrenamientos" name="ToTraining" value="true">
                 <label for="form-entrenamientos">@WC18.MainResources.LabelTrainings</label>
             </div>
             <div class="3u$ 12u$(small)">
-                @Html.CheckBoxFor(model => model.ToDinner, new { id = "form-cena" })
-                @*<input type="checkbox" id="form-cena" name="form-cena">*@
+                <input type="checkbox" id="form-cena" name="ToDinner" value="true">
                 <label for="form-cena">@WC18.MainResources.LabelDinner</label>
             </div>
             <div class="3u 12u$(small)">
             </div>
             <div class="3u 12u$(small)">
-                @Html.CheckBoxFor(model => model.ToTour, new { id = "form-tour" })
-                @*<input type="checkbox" id="form-tour" name="form-tour">*@
+                <input type="checkbox" id="form-tour" name="ToTour" value="true">
                 <label for="form-tour">@WC18.MainResources.LabelTour</label>
             </div>
             <div class="3u 12u$(small)">
-                @Html.CheckBoxFor(model => model.ToHost, new { id = "form-alojamiento" })
-                @*<input type="checkbox" id="form-alojamiento" name="form-alojamiento">*@
+                <input type="checkbox" id="form-alojamiento" name="ToHost" value="true">
                 <label for="form-alojamiento">@WC18.MainResources.LabelHost</label>
             </div>
             <div class="3u 12u$(small)">
@@ -122,15 +111,15 @@
                 @*<textarea name="form-comments" id="form-comments" placeholder="Comentarios" rows="6"></textarea>*@
             </div>
             <div class="12u$">
-                Precio antes del 31/1/2017 <strong><span id="precioTemp">0</span> USD</strong>. Precio despu&eacute;s 31/1/2017 <strong><span id="precioTard">0</span> USD</strong>.
+                @WC18.MainResources.PriceBefore <strong><span id="precioTemp">0</span> USD</strong>. @WC18.MainResources.PriceAfter <strong><span id="precioTard">0</span> USD</strong>.
             </div>
             <!--<div class="12u$">
                 Si elige utilizar alojamiento, debe sumar 40 USD por noche de alojamiento al precio arriba indicado. <br /> Recuerde indicar el n&uacute;mero de noches.
             </div>-->
             <div class="12u$">
                 <ul class="actions">
-                    <li><input type="submit" value="Enviar" class="special" disabled/></li>
-                    <li><input id="reset" type="reset" value="Limpiar" /></li>
+                    <li><input type="submit" value="@WC18.MainResources.Send" class="special" /></li>
+                    <li><input id="reset" type="reset" value="@WC18.MainResources.Clean" /></li>
                 </ul>
             </div>
         </div>

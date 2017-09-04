@@ -123,8 +123,29 @@
   <data name="BaseDesign" xml:space="preserve">
     <value>Diseño Base</value>
   </data>
+  <data name="Clean" xml:space="preserve">
+    <value>Limpiar</value>
+  </data>
+  <data name="CommentsStringLength" xml:space="preserve">
+    <value>El comentario debe tener entre {2} y {1} caracteres.</value>
+  </data>
+  <data name="CountryRequired" xml:space="preserve">
+    <value>El nombre del país es requerido.</value>
+  </data>
+  <data name="CountryStringLength" xml:space="preserve">
+    <value>El nombre del país debe tener entre {2} y {1} caracteres.</value>
+  </data>
   <data name="Customized" xml:space="preserve">
     <value>Personalizado por</value>
+  </data>
+  <data name="EmailAddressFormat" xml:space="preserve">
+    <value>El formato del correo electrónico es incorrecto.</value>
+  </data>
+  <data name="EmailRequired" xml:space="preserve">
+    <value>El correo electrónico es requerido.</value>
+  </data>
+  <data name="EmailStringLength" xml:space="preserve">
+    <value>El correo electrónico debe tener entre {2} y {1} caracteres.</value>
   </data>
   <data name="FertilityScience" xml:space="preserve">
     <value>Ciencia de la fertilidad</value>
@@ -222,11 +243,35 @@
   <data name="LinkSponsors" xml:space="preserve">
     <value>Información aquí</value>
   </data>
+  <data name="NameRequired" xml:space="preserve">
+    <value>El nombre es requerido.</value>
+  </data>
+  <data name="NameStringLength" xml:space="preserve">
+    <value>El nombre debe tener entre {2} y {1} caracteres.</value>
+  </data>
+  <data name="PhoneFormat" xml:space="preserve">
+    <value>El formato del teléfono es incorrecto.</value>
+  </data>
+  <data name="PhoneRequired" xml:space="preserve">
+    <value>El número de teléfono es requerido.</value>
+  </data>
+  <data name="PhoneStringLength" xml:space="preserve">
+    <value>El número de teléfono debe tener entre {2} y {1} caracteres.</value>
+  </data>
+  <data name="PriceAfter" xml:space="preserve">
+    <value>Precio después del  31/1/2017</value>
+  </data>
+  <data name="PriceBefore" xml:space="preserve">
+    <value>Precio antes del 31/1/2017</value>
+  </data>
   <data name="Program" xml:space="preserve">
     <value>Programa</value>
   </data>
   <data name="Registration" xml:space="preserve">
     <value>Inscripción</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Enviar</value>
   </data>
   <data name="Speakers" xml:space="preserve">
     <value>Panelistas</value>
@@ -236,6 +281,9 @@
   </data>
   <data name="TeacherEducation" xml:space="preserve">
     <value>Entrenamientos de instructores</value>
+  </data>
+  <data name="ToHostDaysRange" xml:space="preserve">
+    <value>Solo se aceptan entre {2} y {1} días.</value>
   </data>
   <data name="Version" xml:space="preserve">
     <value>Versión Español</value>

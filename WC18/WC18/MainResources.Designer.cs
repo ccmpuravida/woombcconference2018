@@ -79,11 +79,74 @@ namespace WC18 {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Limpiar.
+        /// </summary>
+        public static string Clean {
+            get {
+                return ResourceManager.GetString("Clean", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to El comentario debe tener entre {2} y {1} caracteres..
+        /// </summary>
+        public static string CommentsStringLength {
+            get {
+                return ResourceManager.GetString("CommentsStringLength", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to El nombre del país es requerido..
+        /// </summary>
+        public static string CountryRequired {
+            get {
+                return ResourceManager.GetString("CountryRequired", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to El nombre del país debe tener entre {2} y {1} caracteres..
+        /// </summary>
+        public static string CountryStringLength {
+            get {
+                return ResourceManager.GetString("CountryStringLength", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Personalizado por.
         /// </summary>
         public static string Customized {
             get {
                 return ResourceManager.GetString("Customized", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to El formato del correo electrónico es incorrecto..
+        /// </summary>
+        public static string EmailAddressFormat {
+            get {
+                return ResourceManager.GetString("EmailAddressFormat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to El correo electrónico es requerido..
+        /// </summary>
+        public static string EmailRequired {
+            get {
+                return ResourceManager.GetString("EmailRequired", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to El correo electrónico debe tener entre {2} y {1} caracteres..
+        /// </summary>
+        public static string EmailStringLength {
+            get {
+                return ResourceManager.GetString("EmailStringLength", resourceCulture);
             }
         }
         
@@ -376,6 +439,69 @@ namespace WC18 {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to El nombre es requerido..
+        /// </summary>
+        public static string NameRequired {
+            get {
+                return ResourceManager.GetString("NameRequired", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to El nombre debe tener entre {2} y {1} caracteres..
+        /// </summary>
+        public static string NameStringLength {
+            get {
+                return ResourceManager.GetString("NameStringLength", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to El formato del teléfono es incorrecto..
+        /// </summary>
+        public static string PhoneFormat {
+            get {
+                return ResourceManager.GetString("PhoneFormat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to El número de teléfono es requerido..
+        /// </summary>
+        public static string PhoneRequired {
+            get {
+                return ResourceManager.GetString("PhoneRequired", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to El número de teléfono debe tener entre {2} y {1} caracteres..
+        /// </summary>
+        public static string PhoneStringLength {
+            get {
+                return ResourceManager.GetString("PhoneStringLength", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Precio después del  31/1/2017.
+        /// </summary>
+        public static string PriceAfter {
+            get {
+                return ResourceManager.GetString("PriceAfter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Precio antes del 31/1/2017.
+        /// </summary>
+        public static string PriceBefore {
+            get {
+                return ResourceManager.GetString("PriceBefore", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Programa.
         /// </summary>
         public static string Program {
@@ -390,6 +516,15 @@ namespace WC18 {
         public static string Registration {
             get {
                 return ResourceManager.GetString("Registration", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enviar.
+        /// </summary>
+        public static string Send {
+            get {
+                return ResourceManager.GetString("Send", resourceCulture);
             }
         }
         
@@ -417,6 +552,15 @@ namespace WC18 {
         public static string TeacherEducation {
             get {
                 return ResourceManager.GetString("TeacherEducation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Solo se aceptan entre {2} y {1} días..
+        /// </summary>
+        public static string ToHostDaysRange {
+            get {
+                return ResourceManager.GetString("ToHostDaysRange", resourceCulture);
             }
         }
         

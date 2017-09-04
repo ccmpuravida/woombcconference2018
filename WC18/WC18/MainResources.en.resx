@@ -123,8 +123,29 @@
   <data name="BaseDesign" xml:space="preserve">
     <value>Base design</value>
   </data>
+  <data name="Clean" xml:space="preserve">
+    <value>Clean</value>
+  </data>
+  <data name="CommentsStringLength" xml:space="preserve">
+    <value>The comment must have between {2} and {1}.</value>
+  </data>
+  <data name="CountryRequired" xml:space="preserve">
+    <value>The country is required.</value>
+  </data>
+  <data name="CountryStringLength" xml:space="preserve">
+    <value>The country must have between {2} and {1}.</value>
+  </data>
   <data name="Customized" xml:space="preserve">
     <value>Customized by</value>
+  </data>
+  <data name="EmailAddressFormat" xml:space="preserve">
+    <value>The email format is invalid.</value>
+  </data>
+  <data name="EmailRequired" xml:space="preserve">
+    <value>The email is required.</value>
+  </data>
+  <data name="EmailStringLength" xml:space="preserve">
+    <value>The email must have between {2} and {1}.</value>
   </data>
   <data name="FertilityScience" xml:space="preserve">
     <value>Science of fertility</value>
@@ -222,11 +243,35 @@
   <data name="LinkSponsors" xml:space="preserve">
     <value>Information here</value>
   </data>
+  <data name="NameRequired" xml:space="preserve">
+    <value>Then name is required.</value>
+  </data>
+  <data name="NameStringLength" xml:space="preserve">
+    <value>The name must have between {2} and {1}.</value>
+  </data>
+  <data name="PhoneFormat" xml:space="preserve">
+    <value>The phone number format is invalid.</value>
+  </data>
+  <data name="PhoneRequired" xml:space="preserve">
+    <value>The phone number is required.</value>
+  </data>
+  <data name="PhoneStringLength" xml:space="preserve">
+    <value>The phone number must have between {2} and {1}.</value>
+  </data>
+  <data name="PriceAfter" xml:space="preserve">
+    <value>Price after  31/1/2017</value>
+  </data>
+  <data name="PriceBefore" xml:space="preserve">
+    <value>Price before 31/1/2017</value>
+  </data>
   <data name="Program" xml:space="preserve">
     <value>Program</value>
   </data>
   <data name="Registration" xml:space="preserve">
     <value>Registration</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Send</value>
   </data>
   <data name="Speakers" xml:space="preserve">
     <value>Speakers</value>
@@ -236,6 +281,9 @@
   </data>
   <data name="TeacherEducation" xml:space="preserve">
     <value>Teacher Trainings</value>
+  </data>
+  <data name="ToHostDaysRange" xml:space="preserve">
+    <value>Only accept between {2} to {1} days.</value>
   </data>
   <data name="Version" xml:space="preserve">
     <value>English version</value>

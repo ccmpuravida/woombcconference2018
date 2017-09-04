@@ -68,3 +68,7 @@ C:\My\Doc\Billings\Conferencia 2018\woombcconference2018\WC18\WC18\bin\en\WC18.r
 C:\My\Doc\Billings\Conferencia 2018\woombcconference2018\WC18\WC18\obj\Debug\WC18.MainResources.en.resources
 C:\My\Doc\Billings\Conferencia 2018\woombcconference2018\WC18\WC18\obj\Debug\en\WC18.resources.dll
 C:\My\Doc\Billings\Conferencia 2018\woombcconference2018\WC18\WC18\obj\Debug\WC18.csprojResolveAssemblyReference.cache
+C:\My\Doc\Billings\Conferencia 2018\woombcconference2018\WC18\WC18\bin\EntityFramework.dll
+C:\My\Doc\Billings\Conferencia 2018\woombcconference2018\WC18\WC18\bin\EntityFramework.SqlServer.dll
+C:\My\Doc\Billings\Conferencia 2018\woombcconference2018\WC18\WC18\bin\EntityFramework.xml
+C:\My\Doc\Billings\Conferencia 2018\woombcconference2018\WC18\WC18\bin\EntityFramework.SqlServer.xml

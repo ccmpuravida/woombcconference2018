@@ -1,10 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Globalization;
 using System.Linq;
+using System.Net.Configuration;
+using System.Net.Mail;
 using System.Threading;
 using System.Web;
 using System.Web.Mvc;
+using WC18.Models;
 
 namespace WC18.Controllers
 {
@@ -38,7 +42,36 @@ namespace WC18.Controllers
         {
             if (ModelState.IsValid)
             {
-                // TODO Acceso a datos
+                // Guardar el registro en base de datos
+                using (var db = new WCContext())
+                {
+                    db.Registrations.Add(model);
+                    db.SaveChanges();
+                }
+
+                // Hacer envío de correos
+                // La configuración del servidor SMTP está en la sección del web.config
+                //SmtpClient client = new SmtpClient();
+                //MailMessage mail = new MailMessage();
+                //mail.To.Add(new MailAddress(model.Email));
+                //mail.Subject = "WOOMB International Conference 2018";
+                //mail.Body = "DEMO";
+                //client.Send(mail);
+
+                // Lectura de valores de configuración
+                var smtpSection = (SmtpSection)ConfigurationManager.GetSection("system.net/mailSettings/smtp");
+
+                MailMessage msg = new MailMessage();
+                var from = new MailAddress(smtpSection.From, "WOOMB International Conference 2018");
+                msg.From = from;
+                msg.ReplyToList.Add(from);
+                msg.To.Add(new MailAddress(model.Email));
+                msg.Subject = "WOOMB International Conference 2018";
+                msg.Body = "DEMO";
+
+                SmtpClient smtp = new SmtpClient();
+                //smtp.Send(msg);
+
 
                 // Todo listo se pasan los datos a la confirmación de registro
                 TempData["Registration"] = model;
