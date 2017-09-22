@@ -73,3 +73,7 @@ C:\Users\Christian\Documents\GitHub\woombcconference2018\WC18\WC18\obj\Release\W
 C:\Users\Christian\Documents\GitHub\woombcconference2018\WC18\WC18\obj\Release\WC18.MainResources.en.resources
 C:\Users\Christian\Documents\GitHub\woombcconference2018\WC18\WC18\obj\Release\WC18.csproj.GenerateResource.Cache
 C:\Users\Christian\Documents\GitHub\woombcconference2018\WC18\WC18\obj\Release\en\WC18.resources.dll
+C:\Users\Christian\Documents\GitHub\woombcconference2018\WC18\WC18\bin\EntityFramework.dll
+C:\Users\Christian\Documents\GitHub\woombcconference2018\WC18\WC18\bin\EntityFramework.SqlServer.dll
+C:\Users\Christian\Documents\GitHub\woombcconference2018\WC18\WC18\bin\EntityFramework.xml
+C:\Users\Christian\Documents\GitHub\woombcconference2018\WC18\WC18\bin\EntityFramework.SqlServer.xml

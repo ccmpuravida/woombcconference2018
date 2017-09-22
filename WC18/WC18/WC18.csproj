@@ -305,6 +305,7 @@
     <Content Include="Web.sitemap" />
     <Content Include="Views\Home\RegistrationConfirm.cshtml" />
     <Content Include="Views\Home\RegistrationFormPartial.cshtml" />
+    <Content Include="Views\Home\RegistrationConfirm.en.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

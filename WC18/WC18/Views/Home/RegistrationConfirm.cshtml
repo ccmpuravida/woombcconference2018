@@ -1,13 +1,50 @@
 ﻿@model WC18.Models.Registration
 @{
     ViewBag.Title = "RegistrationConfirm";
-    ViewBag.Description = "Billings Ovulation Method Conference, Registration Confirmation.";
+    ViewBag.Description = "Metodo de Ovulacion Billings Conferencia, Confirmacion de registro.";
 
 }
 
-<h2>Bienvenido - Pagina en construcción </h2>
 
-<h3>@Model.IdType</h3>
-<h3>@Model.IdNumber</h3>
+@section styles {
+    <style>
+        p {
+            margin: 0 0 2em 0;
+            text-align: justify;
+            text-justify: inter-word;
+        }
+    </style>
+}
+
+<!-- Main -->
+<article id="main">
+    <header>
+        <h2>¡Gracias por Registrarse!</h2>
+        <p style="text-align:center;">A continuación los detalles para realizar su pago y confirmar el registro.</p>
+    </header>
+    <section class="wrapper style5">
+        <div class="inner">
+
+            <section>
+                <h4>Para confirmar registro</h4>
+                <p>Saludos @Model.Name . Puedes confirmar tu registro de las siguientes maneras.</p>
+                <hr />
+                <p>
+                    Por transferencia bancaria: Para tener los detalles puedes escribir a <a  href="mailto:info@woombconference2018.com"><span class="label">info@woombconference2018.com</span></a><br /><br />
+                    Por medio de los afiliados de tu país: puedes ver los contactos de los países afiliados en el siguiente <a href="http://www.woombinternational.org/index.php/global-outreach" target="_blank">enlace</a>. <br /><br />
+                    Transferencia por <a href="www.westernunion.com" target="_blank">Western Union</a>: escribe a  <a href="mailto:info@woombconference2018.com"><span class="label">info@woombconference2018.com</span></a> para más detalles.
+                </p>
+                <hr />
 
 
+
+            </section>
+
+
+
+        </div>
+    </section>
+</article>
+@section scripts {
+    <script src="~/Content/secondaryjs.js"></script>
+}
