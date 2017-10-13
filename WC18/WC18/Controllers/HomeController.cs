@@ -40,6 +40,8 @@ namespace WC18.Controllers
         [HttpPost]
         public ActionResult Registration(WC18.Models.Registration model)
         {
+            model.Date = DateTime.Now;
+
             if (ModelState.IsValid)
             {
                 // Guardar el registro en base de datos
@@ -51,27 +53,35 @@ namespace WC18.Controllers
 
                 // Hacer envío de correos
                 // La configuración del servidor SMTP está en la sección del web.config
-                //SmtpClient client = new SmtpClient();
-                //MailMessage mail = new MailMessage();
-                //mail.To.Add(new MailAddress(model.Email));
-                //mail.Subject = "WOOMB International Conference 2018";
-                //mail.Body = "DEMO";
-                //client.Send(mail);
 
                 // Lectura de valores de configuración
                 var smtpSection = (SmtpSection)ConfigurationManager.GetSection("system.net/mailSettings/smtp");
 
-                MailMessage msg = new MailMessage();
-                var from = new MailAddress(smtpSection.From, "WOOMB International Conference 2018");
-                msg.From = from;
-                msg.ReplyToList.Add(from);
-                msg.To.Add(new MailAddress(model.Email));
-                msg.Subject = "WOOMB International Conference 2018";
-                msg.Body = "DEMO";
 
-                SmtpClient smtp = new SmtpClient();
-                //smtp.Send(msg);
+                // Si ha llegado hasta aquí y se tiene problemas con el envio del correo
+                // dejar que la aplicación continue cu ejecución
+                try
+                {
+                    MailMessage msg = new MailMessage();
+                    var from = new MailAddress(smtpSection.From, "WOOMB International Conference 2018");
+                    msg.IsBodyHtml = true;
+                    msg.From = from;
+                    msg.ReplyToList.Add(from);
+                    msg.To.Add(new MailAddress(model.Email));
+                    msg.Subject = "WOOMB International Conference 2018";
 
+                    // TODO Habría que consisderar que el cuerpo del correo responda al idioma de registro
+                    // utilizado.
+                    msg.Body = $"Bienvenido/a. <strong>{model.Name}</strong><br/>" +
+                        $"<p>Le damos la cordial bienvenida ... :-)</p>";
+
+                    SmtpClient smtp = new SmtpClient();
+                    smtp.Send(msg);
+                }
+                catch (Exception)
+                {
+                    // Dado que hubo un error el envíar el correo se deja que la aplicación continue la ejecución
+                }
 
                 // Todo listo se pasan los datos a la confirmación de registro
                 TempData["Registration"] = model;

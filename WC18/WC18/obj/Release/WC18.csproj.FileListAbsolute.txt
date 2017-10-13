@@ -77,3 +77,7 @@ C:\Users\Christian\Documents\GitHub\woombcconference2018\WC18\WC18\bin\EntityFra
 C:\Users\Christian\Documents\GitHub\woombcconference2018\WC18\WC18\bin\EntityFramework.SqlServer.dll
 C:\Users\Christian\Documents\GitHub\woombcconference2018\WC18\WC18\bin\EntityFramework.xml
 C:\Users\Christian\Documents\GitHub\woombcconference2018\WC18\WC18\bin\EntityFramework.SqlServer.xml
+C:\My\Doc\Billings\Conferencia 2018\woombcconference2018\WC18\WC18\bin\EntityFramework.dll
+C:\My\Doc\Billings\Conferencia 2018\woombcconference2018\WC18\WC18\bin\EntityFramework.SqlServer.dll
+C:\My\Doc\Billings\Conferencia 2018\woombcconference2018\WC18\WC18\bin\EntityFramework.xml
+C:\My\Doc\Billings\Conferencia 2018\woombcconference2018\WC18\WC18\bin\EntityFramework.SqlServer.xml

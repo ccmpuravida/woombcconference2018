@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace WC18.Models
@@ -62,7 +63,10 @@ namespace WC18.Models
         [Range(1, 15, ErrorMessageResourceType = typeof(MainResources), ErrorMessageResourceName = "ToHostDaysRange")]
         public int? ToHostDays { get; set; }
 
+        [Required]
+        public DateTime Date { get; set; }
+
         [StringLength(1024, MinimumLength = 3, ErrorMessageResourceType = typeof(MainResources), ErrorMessageResourceName = "CommentsStringLength")]
-        public string Comments { get; set; }
+        public string Comments { get; set; }       
     }
 }
