@@ -68,12 +68,14 @@ namespace WC18.Controllers
                     msg.From = from;
                     msg.ReplyToList.Add(from);
                     msg.To.Add(new MailAddress(model.Email));
+                    msg.CC.Add(new MailAddress("info@woombconference2018.com"));
                     msg.Subject = "WOOMB International Conference 2018";
 
                     // TODO Habría que consisderar que el cuerpo del correo responda al idioma de registro
                     // utilizado.
-                    msg.Body = $"Bienvenido/a. <strong>{model.Name}</strong><br/>" +
-                        $"<p>Le damos la cordial bienvenida ... :-)</p>";
+                    
+                    msg.Body = MainResources.Mail1 + $"<strong>{model.Name}</strong><br/>" +
+                        $"<p>"+MainResources.Mail2+"</p>";
 
                     SmtpClient smtp = new SmtpClient();
                     smtp.Send(msg);

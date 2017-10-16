@@ -235,13 +235,19 @@
     <value>Half-day tour</value>
   </data>
   <data name="LabelTrainings" xml:space="preserve">
-    <value>Trainings (In the comments, indicate if basic or extension).</value>
+    <value>Trainings**.</value>
   </data>
   <data name="LangComplement" xml:space="preserve">
     <value>es</value>
   </data>
   <data name="LinkSponsors" xml:space="preserve">
     <value>Information here</value>
+  </data>
+  <data name="Mail1" xml:space="preserve">
+    <value>Welcome </value>
+  </data>
+  <data name="Mail2" xml:space="preserve">
+    <value>Thanks for registering. Remember your registration will finish when confirming the payment. Feel free to write to info@woombconference2018.org for more information.</value>
   </data>
   <data name="NameRequired" xml:space="preserve">
     <value>Then name is required.</value>
@@ -284,6 +290,9 @@
   </data>
   <data name="ToHostDaysRange" xml:space="preserve">
     <value>Only accept between {2} to {1} days.</value>
+  </data>
+  <data name="TrainingNotes" xml:space="preserve">
+    <value>** As usual in those conferences, participants will be allocated to the training that ads more value for them.  Please provide following information about the last training you participated (or if this would be the first training): date, place, type of training and presenter.</value>
   </data>
   <data name="Version" xml:space="preserve">
     <value>English version</value>

@@ -235,13 +235,19 @@
     <value>Tour de medio día</value>
   </data>
   <data name="LabelTrainings" xml:space="preserve">
-    <value>Entrenamientos (Indicar en comentarios si básico/actualización o extensión)</value>
+    <value>Entrenamientos **</value>
   </data>
   <data name="LangComplement" xml:space="preserve">
     <value>en</value>
   </data>
   <data name="LinkSponsors" xml:space="preserve">
     <value>Información aquí</value>
+  </data>
+  <data name="Mail1" xml:space="preserve">
+    <value>Bienvenido(a) </value>
+  </data>
+  <data name="Mail2" xml:space="preserve">
+    <value>Gracias por registrarte. Recuerda que tu registro quedará en firme cuando se confirme el pago. Puedes escribir a info@woombconference2018.com para más información.</value>
   </data>
   <data name="NameRequired" xml:space="preserve">
     <value>El nombre es requerido.</value>
@@ -284,6 +290,9 @@
   </data>
   <data name="ToHostDaysRange" xml:space="preserve">
     <value>Solo se aceptan entre {2} y {1} días.</value>
+  </data>
+  <data name="TrainingNotes" xml:space="preserve">
+    <value>** Como es usual en las conferencias se ubica al participante en el entrenamiento que más valor le aporte.  Por favor brindar la siguiente información del último entrenamiento al que ha asistido (o indicar si este es su primer entrenamiento): lugar, fecha, tipo de entrenamiento y quién lo impartió.</value>
   </data>
   <data name="Version" xml:space="preserve">
     <value>Versión Español</value>

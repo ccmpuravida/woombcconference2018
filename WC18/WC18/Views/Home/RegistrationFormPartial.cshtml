@@ -105,6 +105,9 @@
             </div>
             <div class="3u$ 12u$(small)">
             </div>
+            <div class="12u$ 12u$(small)">
+                @WC18.MainResources.TrainingNotes
+            </div>
             <div class="12u$">
                 @Html.TextAreaFor(model => model.Comments, new { id = "form-comments", placeholder = @WC18.MainResources.LabelComments, rows = 6 })
                 @Html.ValidationMessageFor(model => model.Comments, "", new { @class = "val-error" })
