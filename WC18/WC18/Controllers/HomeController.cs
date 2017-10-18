@@ -94,7 +94,7 @@ namespace WC18.Controllers
             return View(vn, model);
         }
 
-        public ActionResult RegistrationConfirm()
+        public ActionResult RegistrationConfirm(string lang = "")
         {
             var model = (WC18.Models.Registration)TempData["Registration"];
 
@@ -102,8 +102,9 @@ namespace WC18.Controllers
             {
                 return RedirectToAction("Registration");
             }
+            string vn = "RegistrationConfirm" + DefineUICulture(lang);
 
-            return View(model);
+            return View(vn, model);
         }
 
         public ActionResult Speakers(string lang = "")
