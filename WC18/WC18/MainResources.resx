@@ -117,17 +117,125 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Affiliates" xml:space="preserve">
+    <value>Países afiliados</value>
+  </data>
   <data name="BaseDesign" xml:space="preserve">
     <value>Diseño Base</value>
+  </data>
+  <data name="Clean" xml:space="preserve">
+    <value>Limpiar</value>
+  </data>
+  <data name="CommentsStringLength" xml:space="preserve">
+    <value>El comentario debe tener entre {2} y {1} caracteres.</value>
+  </data>
+  <data name="CountryRequired" xml:space="preserve">
+    <value>El nombre del país es requerido.</value>
+  </data>
+  <data name="CountryStringLength" xml:space="preserve">
+    <value>El nombre del país debe tener entre {2} y {1} caracteres.</value>
   </data>
   <data name="Customized" xml:space="preserve">
     <value>Personalizado por</value>
   </data>
+  <data name="EmailAddressFormat" xml:space="preserve">
+    <value>El formato del correo electrónico es incorrecto.</value>
+  </data>
+  <data name="EmailRequired" xml:space="preserve">
+    <value>El correo electrónico es requerido.</value>
+  </data>
+  <data name="EmailStringLength" xml:space="preserve">
+    <value>El correo electrónico debe tener entre {2} y {1} caracteres.</value>
+  </data>
+  <data name="FertilityScience" xml:space="preserve">
+    <value>Ciencia de la fertilidad</value>
+  </data>
+  <data name="Form" xml:space="preserve">
+    <value>Formulario</value>
+  </data>
+  <data name="FormGovermentID" xml:space="preserve">
+    <value>Cédula</value>
+  </data>
+  <data name="FormIDType" xml:space="preserve">
+    <value>- Tipo de ID -</value>
+  </data>
+  <data name="FormPassport" xml:space="preserve">
+    <value>Pasaporte</value>
+  </data>
+  <data name="Headerhome" xml:space="preserve">
+    <value>Conferencia WOOMB</value>
+  </data>
   <data name="Home" xml:space="preserve">
+    <value>Inicio</value>
+  </data>
+  <data name="HomeDesc" xml:space="preserve">
+    <value>Conferencia Internacional del Metodo de Ovulacion Billings, WOOMB, Costa Rica 2018. Conferencia WOOMB. WOOMB Conference, Billings Ovulation Method.</value>
+  </data>
+  <data name="HomeTitle" xml:space="preserve">
     <value>Inicio</value>
   </data>
   <data name="Hosting" xml:space="preserve">
     <value>Hospedaje cortesía de</value>
+  </data>
+  <data name="IdNumberRequired" xml:space="preserve">
+    <value>El número de ID es requerido.</value>
+  </data>
+  <data name="IdNumberStringLength" xml:space="preserve">
+    <value>El número de ID debe tener entre {2} y {1} caracteres.</value>
+  </data>
+  <data name="IdTypeRequired" xml:space="preserve">
+    <value>El tipo de ID es requerido.</value>
+  </data>
+  <data name="InspiringPresentations" xml:space="preserve">
+    <value>Charlas Inspiradoras</value>
+  </data>
+  <data name="LabelComments" xml:space="preserve">
+    <value>Comentarios</value>
+  </data>
+  <data name="LabelConference" xml:space="preserve">
+    <value>Conferencia</value>
+  </data>
+  <data name="LabelCountry" xml:space="preserve">
+    <value>País</value>
+  </data>
+  <data name="LabelDinner" xml:space="preserve">
+    <value>Cena</value>
+  </data>
+  <data name="LabelEmail" xml:space="preserve">
+    <value>Correo electrónico</value>
+  </data>
+  <data name="LabelHost" xml:space="preserve">
+    <value>Alojamiento (indicar número de noches)</value>
+  </data>
+  <data name="LabelHostDays" xml:space="preserve">
+    <value>Días Alojamiento</value>
+  </data>
+  <data name="LabelIDNumber" xml:space="preserve">
+    <value>Número de ID</value>
+  </data>
+  <data name="LabelInscriptionFor" xml:space="preserve">
+    <value>Se inscribe para:</value>
+  </data>
+  <data name="LabelIsHealth" xml:space="preserve">
+    <value>¿Trabaja en sector salud?</value>
+  </data>
+  <data name="LabelIsIntructor" xml:space="preserve">
+    <value>¿Es Intructor?</value>
+  </data>
+  <data name="LabelIsUser" xml:space="preserve">
+    <value>¿Es usuario?</value>
+  </data>
+  <data name="LabelName" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="LabelPhone" xml:space="preserve">
+    <value>Teléfono</value>
+  </data>
+  <data name="LabelTour" xml:space="preserve">
+    <value>Tour de medio día</value>
+  </data>
+  <data name="LabelTrainings" xml:space="preserve">
+    <value>Entrenamientos **</value>
   </data>
   <data name="LangComplement" xml:space="preserve">
     <value>en</value>
@@ -135,11 +243,45 @@
   <data name="LinkSponsors" xml:space="preserve">
     <value>Información aquí</value>
   </data>
+  <data name="Mail1" xml:space="preserve">
+    <value>Bienvenido(a) </value>
+  </data>
+  <data name="Mail2" xml:space="preserve">
+    <value>Gracias por registrarte. Recuerda que tu registro quedará en firme cuando se confirme el pago. Puedes escribir a info@woombconference2018.com para más información. Para realizar el pago tienes las siguientes opciones:&lt;br/&gt;&lt;br/&gt;Por transferencia bancaria: Para tener los detalles puedes escribir a info@woombconference2018.com&lt;br/&gt;&lt;br/&gt;
+ 
+Por medio de los afiliados de tu país: puedes ver los contactos de los países afiliados &lt;a href="http://www.woombinternational.org/index.php/global-outreach" target="_blank"&gt;aquí&lt;/a&gt;.&lt;br/&gt;&lt;br/&gt;
+
+Transferencia por Western Union: escribe a info@woombconference2018.com para más detalles.</value>
+  </data>
+  <data name="NameRequired" xml:space="preserve">
+    <value>El nombre es requerido.</value>
+  </data>
+  <data name="NameStringLength" xml:space="preserve">
+    <value>El nombre debe tener entre {2} y {1} caracteres.</value>
+  </data>
+  <data name="PhoneFormat" xml:space="preserve">
+    <value>El formato del teléfono es incorrecto.</value>
+  </data>
+  <data name="PhoneRequired" xml:space="preserve">
+    <value>El número de teléfono es requerido.</value>
+  </data>
+  <data name="PhoneStringLength" xml:space="preserve">
+    <value>El número de teléfono debe tener entre {2} y {1} caracteres.</value>
+  </data>
+  <data name="PriceAfter" xml:space="preserve">
+    <value>Precio después del  31/1/2017</value>
+  </data>
+  <data name="PriceBefore" xml:space="preserve">
+    <value>Precio antes del 31/1/2017</value>
+  </data>
   <data name="Program" xml:space="preserve">
     <value>Programa</value>
   </data>
   <data name="Registration" xml:space="preserve">
     <value>Inscripción</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Enviar</value>
   </data>
   <data name="Speakers" xml:space="preserve">
     <value>Panelistas</value>
@@ -147,10 +289,31 @@
   <data name="Sponsors" xml:space="preserve">
     <value>Patrocinadores</value>
   </data>
+  <data name="TeacherEducation" xml:space="preserve">
+    <value>Entrenamientos de instructores</value>
+  </data>
+  <data name="ToHostDaysRange" xml:space="preserve">
+    <value>Solo se aceptan entre {2} y {1} días.</value>
+  </data>
+  <data name="TrainingNotes" xml:space="preserve">
+    <value>** Como es usual en las conferencias se ubica al participante en el entrenamiento que más valor le aporte.  Por favor brindar la siguiente información del último entrenamiento al que ha asistido (o indicar si este es su primer entrenamiento): lugar, fecha, tipo de entrenamiento y quién lo impartió.</value>
+  </data>
   <data name="Version" xml:space="preserve">
     <value>Versión Español</value>
   </data>
   <data name="VersionComplement" xml:space="preserve">
     <value>English version</value>
+  </data>
+  <data name="WOOMBInternational" xml:space="preserve">
+    <value>WOOMB Internacional</value>
+  </data>
+  <data name="WOOMBLA" xml:space="preserve">
+    <value>WOOMB Latinoamérica</value>
+  </data>
+  <data name="Workshops" xml:space="preserve">
+    <value>Talleres</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Sí</value>
   </data>
 </root>

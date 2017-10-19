@@ -1,6 +1,7 @@
-﻿
+﻿@model WC18.Models.Registration
 @{
     ViewBag.Title = "Inscripción";
+    ViewBag.Description = "Conferencia Internacional de WOOMB. Registro, formulario de inscripcion y costos.";
 }
 
 <!-- Main -->
@@ -14,7 +15,7 @@
 
             <section>
                 <h4>Instrucciones</h4>
-                <p>Llena los datos del formulario que se muestra a continuaci&oacute;n. <br />Puedes seleccionar los eventos en los que quieres participar. <br />  Una vez enviado el formulario, te indicaremos las opciones de pago.  La inscripci&oacute;n quedar&aacute; en firme una vez se realice el pago.</p>
+                <p>Llena los datos del formulario que se muestra a continuaci&oacute;n. <br />Puedes seleccionar los eventos en los que quieres participar. <br />  Una vez enviado el formulario, te indicaremos las opciones de pago.  La inscripci&oacute;n quedar&aacute; en firme una vez se realice el pago.  El pago no es reembolsable y pueden haber cargos adicionales de acuerdo al tipo de pago por comisiones de los procesadores.</p>
                 <hr />
             </section>
             <section>
@@ -38,7 +39,7 @@
                             </tr>
                             <tr>
                                 <td>Entrenamientos</td>
-                                <td>B&aacute;sico o de Extensi&oacute;n.</td>
+                                <td>B&aacute;sico/Actualizaci&oacute;n o de Extensi&oacute;n.</td>
                                 <td>80 USD</td>
                             </tr>
                             <tr>
@@ -85,7 +86,7 @@
                             </tr>
                             <tr>
                                 <td>Entrenamientos</td>
-                                <td>B&aacute;sico o de Extensi&oacute;n.</td>
+                                <td>B&aacute;sico/Actualizaci&oacute;n o de Extensi&oacute;n.</td>
                                 <td>60 USD</td>
                             </tr>
                             <tr>
@@ -114,115 +115,16 @@
                 </div>
 
             </section>
-
-
-            <section>
-                <h4>Formulario</h4>
-                <form method="post" action="#">
-                    <div class="row uniform">
-                        <div class=" 6u 12u$(medium)">
-                            <div class="select-wrapper">
-                                <select name="form-tipoid" id="form-tipoid">
-                                    <option value="">- Tipo de ID -</option>
-                                    <option value="cedula">C&eacute;dula/ID</option>
-                                    <option value="pasaporte">Pasaporte</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="6u 12u$(xsmall)">
-                            <input type="text" name="form-idnum" id="form-idnum" value="" placeholder="N&uacute;mero de ID" />
-                        </div>
-                        <div class="6u 12u$(xsmall)">
-                            <input type="text" name="form-name" id="form-name" value="" placeholder="Nombre" />
-                        </div>
-                        <div class="6u 12u$(medium) 12u$(xsmall)">
-                            <input type="email" name="form-email" id="form-email" value="" placeholder="Email" />
-                        </div>
-                        <div class="6u 12u$(xsmall)">
-                            <input type="text" name="form-pais" id="form-pais" value="" placeholder="Pais" />
-                        </div>
-                        <div class="6u 12u$(xsmall)">
-                            <input type="text" name="form-tel" id="form-tel" value="" placeholder="Tel&eacute;fono" />
-                        </div>
-                        <p>&iquest;Es Instructor?</p>
-                        <div class="4u 6u(small)">
-                            <input type="radio" id="form-instructor-si" name="form-instructor" checked>
-                            <label for="form-instructor-si">Si</label>
-                        </div>
-                        <div class="4u$ 6u$(small)">
-                            <input type="radio" id="form-instructor-no" name="form-instructor">
-                            <label for="form-instructor-no">No</label>
-                        </div>
-                        <p>&iquest;Es usuario?</p>
-                        <div class="4u 6u(small)">
-                            <input type="radio" id="form-usuario-si" name="form-usuario" checked>
-                            <label for="form-usuario-si">Si</label>
-                        </div>
-                        <div class="4u$ 6u$(small)">
-                            <input type="radio" id="form-usuario-no" name="form-usuario">
-                            <label for="form-usuario-no">No</label>
-                        </div>
-                        <p>&iquest;Trabaja en sector salud?</p>
-                        <div class="4u 6u(small)">
-                            <input type="radio" id="form-salud-si" name="form-salud" checked>
-                            <label for="form-salud-si">Si</label>
-                        </div>
-                        <div class="4u$ 6u$(small)">
-                            <input type="radio" id="form-salud-no" name="form-salud">
-                            <label for="form-salud-no">No</label>
-                        </div>
-                        <div class="3u 12u$(small)">Se inscribe para:</div>
-                        <div class="3u 12u$(small)">
-                            <input type="checkbox" id="form-conferencia" name="form-conferencia">
-                            <label for="form-conferencia">Conferencia</label>
-                        </div>
-                        <div class="3u 12u$(small)">
-                            <input type="checkbox" id="form-entrenamientos" name="form-entrenamientos">
-                            <label for="form-entrenamientos">Entrenamientos</label>
-                        </div>
-                        <div class="3u$ 12u$(small)">
-                            <input type="checkbox" id="form-cena" name="form-cena">
-                            <label for="form-cena">Cena</label>
-                        </div>
-                        <div class="3u 12u$(small)">
-                        </div>
-                        <div class="3u 12u$(small)">
-                            <input type="checkbox" id="form-tour" name="form-tour">
-                            <label for="form-tour">Tour de medio d&iacute;a</label>
-                        </div>
-                        <div class="3u 12u$(small)">
-                            <input type="checkbox" id="form-alojamiento" name="form-alojamiento">
-                            <label for="form-alojamiento">Alojamiento (indicar n&uacute;mero de noches)</label>
-                        </div>
-                        <div class="3u 12u$(small)">
-                            <input type="text" id="form-dias" name="form-dias" size="2" maxlength="2" default="0">
-                            <label for="form-dias">Dias Alojamiento</label>
-                        </div>
-                        <div class="3u$ 12u$(small)">
-                        </div>
-                        <div class="12u$">
-                            <textarea name="form-comments" id="form-comments" placeholder="Comentarios" rows="6"></textarea>
-                        </div>
-                        <div class="12u$">
-                            Precio antes del 31/1/2017 <strong><span id="precioTemp">0</span> USD</strong>. Precio despu&eacute;s 31/1/2017 <strong><span id="precioTard">0</span> USD</strong>.
-                        </div>
-                        <!--<div class="12u$">
-                            Si elige utilizar alojamiento, debe sumar 40 USD por noche de alojamiento al precio arriba indicado. <br /> Recuerde indicar el n&uacute;mero de noches.
-                        </div>-->
-                        <div class="12u$">
-                            <ul class="actions">
-                                <li><input type="submit" value="Enviar" class="special" /></li>
-                                <li><input id="reset" type="reset" value="Limpiar" /></li>
-                            </ul>
-                        </div>
-                    </div>
-                </form>
-            </section>
-
+            @{ 
+                Html.RenderPartial("RegistrationFormPartial");
+            }
         </div>
     </section>
 </article>
 
+
 @section scripts {
     <script src="~/Content/registration.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
 }

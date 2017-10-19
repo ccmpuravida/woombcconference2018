@@ -1,6 +1,8 @@
-﻿
+﻿@model WC18.Models.Registration
+
 @{
-    ViewBag.Title = "";
+    ViewBag.Title = "Registration";
+    ViewBag.Description = "WOOMB International Conference. Registration form and prices.";
 }
 
 <!-- Main -->
@@ -8,15 +10,13 @@
     <header>
         <h2>Registration</h2>
         <p>Reserve your space in the International Conference, Costa Rica 2018.</p>
-        <p>PAGE UNDER CONSTRUCTION</p>
     </header>
     <section class="wrapper style5">
         <div class="inner">
 
             <section>
                 <h4>Instructions</h4>
-                <p>This page is under construction, keep checking for updates.</p>
-                <!--<p>Complete the form below. <br/>You can select the events which you want to participate. <br/>  Once the form is sent, we will provide you with the payment options.  The registration will be confirmed once the payment is received.</p>-->
+                <p>Complete the form below. <br/>You can select the events which you want to participate. <br/>  Once the form is sent, we will provide you with the payment options.  The registration will be confirmed once the payment is received. There are no refunds for the payments and additional charges may apply according to payment type as per processor fees.</p>
                 <hr />
             </section>
             <section>
@@ -40,7 +40,7 @@
                             </tr>
                             <tr>
                                 <td>Teacher Trainings</td>
-                                <td>Basic Training Program or Extension Program. April 29<sup>th</sup>, 30<sup>th</sup>, May 1<sup>st</sup> and 2<sup>nd</sup>.</td>
+                                <td>Basic/Upskilling Training Program or Extension Program. April 29<sup>th</sup>, 30<sup>th</sup>, May 1<sup>st</sup> and 2<sup>nd</sup>.</td>
                                 <td>80 USD</td>
                             </tr>
                             <tr>
@@ -83,7 +83,7 @@
                             </tr>
                             <tr>
                                 <td>Teacher Trainings</td>
-                                <td>Basic Training Program or Extension Program. April 29<sup>th</sup>, 30<sup>th</sup>, May 1<sup>st</sup> and 2<sup>nd</sup>.</td>
+                                <td>Basic/Upskilling Training Program or Extension Program. April 29<sup>th</sup>, 30<sup>th</sup>, May 1<sup>st</sup> and 2<sup>nd</sup>.</td>
                                 <td>60 USD</td>
                             </tr>
                             <tr>
@@ -108,115 +108,15 @@
                 </div>
 
             </section>
-
-
-            <section>
-                <h4>Form</h4>
-                <form method="post" action="#">
-                    <div class="row uniform">
-                        <div class=" 6u 12u$(medium)">
-                            <div class="select-wrapper">
-                                <select name="form-tipoid" id="form-tipoid">
-                                    <option value="">- ID Type -</option>
-                                    <option value="cedula">Goverment ID</option>
-                                    <option value="pasaporte">Passport</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="6u 12u$(xsmall)">
-                            <input type="text" name="form-idnum" id="form-idnum" value="" placeholder="ID Number" />
-                        </div>
-                        <div class="6u 12u$(xsmall)">
-                            <input type="text" name="form-name" id="form-name" value="" placeholder="Name" />
-                        </div>
-                        <div class="6u 12u$(medium) 12u$(xsmall)">
-                            <input type="email" name="form-email" id="form-email" value="" placeholder="Email" />
-                        </div>
-                        <div class="6u 12u$(xsmall)">
-                            <input type="text" name="form-pais" id="form-pais" value="" placeholder="Country" />
-                        </div>
-                        <div class="6u 12u$(xsmall)">
-                            <input type="text" name="form-tel" id="form-tel" value="" placeholder="Phone" />
-                        </div>
-                        <p>Are you a Billings teacher?</p>
-                        <div class="4u 6u(small)">
-                            <input type="radio" id="form-instructor-si" name="form-instructor" checked>
-                            <label for="form-instructor-si">Yes</label>
-                        </div>
-                        <div class="4u$ 6u$(small)">
-                            <input type="radio" id="form-instructor-no" name="form-instructor">
-                            <label for="form-instructor-no">No</label>
-                        </div>
-                        <p>Do you use the Billings Ovulation Method&reg;?</p>
-                        <div class="4u 6u(small)">
-                            <input type="radio" id="form-usuario-si" name="form-usuario" checked>
-                            <label for="form-usuario-si">Yes</label>
-                        </div>
-                        <div class="4u$ 6u$(small)">
-                            <input type="radio" id="form-usuario-no" name="form-usuario">
-                            <label for="form-usuario-no">No</label>
-                        </div>
-                        <p>Do you work in the Healthcare system?</p>
-                        <div class="4u 6u(small)">
-                            <input type="radio" id="form-salud-si" name="form-salud" checked>
-                            <label for="form-salud-si">Yes</label>
-                        </div>
-                        <div class="4u$ 6u$(small)">
-                            <input type="radio" id="form-salud-no" name="form-salud">
-                            <label for="form-salud-no">No</label>
-                        </div>
-                        <div class="3u 12u$(small)">You register for:</div>
-                        <div class="3u 12u$(small)">
-                            <input type="checkbox" id="form-conferencia" name="form-conferencia">
-                            <label for="form-conferencia">Conference</label>
-                        </div>
-                        <div class="3u 12u$(small)">
-                            <input type="checkbox" id="form-entrenamientos" name="form-entrenamientos">
-                            <label for="form-entrenamientos">Trainings (In the comments, indicate if basic or extension).</label>
-                        </div>
-                        <div class="3u$ 12u$(small)">
-                            <input type="checkbox" id="form-cena" name="form-cena">
-                            <label for="form-cena">Dinner</label>
-                        </div>
-                        <div class="3u 12u$(small)">
-                        </div>
-                        <div class="3u 12u$(small)">
-                            <input type="checkbox" id="form-tour" name="form-tour">
-                            <label for="form-tour">Half-day tour</label>
-                        </div>
-                        <div class="3u 12u$(small)">
-                            <input type="checkbox" id="form-alojamiento" name="form-alojamiento">
-                            <label for="form-alojamiento">Lodging (please enter number of nights)</label>
-                        </div>
-                        <div class="3u 12u$(small)">
-                            <input type="text" id="form-dias" name="form-dias" size="2" maxlength="2" default="0">
-                            <label for="form-dias">Lodging Nights</label>
-                        </div>
-                        <div class="3u$ 12u$(small)">
-                        </div>
-                        <div class="12u$">
-                            <textarea name="form-comments" id="form-comments" placeholder="Comments" rows="6"></textarea>
-                        </div>
-                        <div class="12u$">
-                            Price before January, 31<sup>st</sup>, 2018 <strong><span id="precioTemp">0</span> USD</strong>. Price after January, 31<sup>st</sup>, 2018 <strong><span id="precioTard">0</span> USD</strong>.
-                        </div>
-                        <!--<div class="12u$">
-                            If you choose to use our lodging, you need to add 40 USD per night to the price above.<br /> Remember to indicate the number of days in the comments.
-                        </div>-->
-                        <div class="12u$">
-                            <ul class="actions">
-                                <li><input type="submit" value="Submit" class="special" disabled /></li>
-                                <li><input id="reset" type="reset" value="Reset" /></li>
-                            </ul>
-                        </div>
-                    </div>
-                </form>
-            </section>
-
+            @{
+                Html.RenderPartial("RegistrationFormPartial");
+            }
         </div>
     </section>
 </article>
 
 @section scripts {
     <script src="~/Content/registration.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
 }

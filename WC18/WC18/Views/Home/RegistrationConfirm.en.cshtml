@@ -1,0 +1,50 @@
+﻿@model WC18.Models.Registration
+@{
+    ViewBag.Title = "RegistrationConfirm";
+    ViewBag.Description = "Billings Ovulation Method Conference, Registration Confirmation.";
+
+}
+
+
+@section styles {
+    <style>
+        p {
+            margin: 0 0 2em 0;
+            text-align: justify;
+            text-justify: inter-word;
+        }
+    </style>
+}
+
+<!-- Main -->
+<article id="main">
+    <header>
+        <h2>Thanks for Registering!</h2>
+        <p style="text-align:center;">Below the details to confirm your registration and proceed with payment.</p>
+    </header>
+    <section class="wrapper style5">
+        <div class="inner">
+
+            <section>
+                <h4>To confirm your registration</h4>
+                <p>Greetings @Model.Name . You can confirm your registration in any of the below ways.</p>
+                <hr />
+                <p>
+                    Direct Bank Transfer: Write to <a  href="mailto:info@woombconference2018.com"><span class="label">info@woombconference2018.com</span></a> for details.<br /><br />
+                    By any of our international affiliates: See the list <a href="http://www.woombinternational.org/index.php/global-outreach" target="_blank">here</a>. <br />
+                    <a href="www.westernunion.com" target="_blank">Western Union</a> transfer: write to <a href="mailto:info@woombconference2018.com"><span class="label">info@woombconference2018.com</span></a> for more details.
+                </p>
+                <hr />
+
+
+
+            </section>
+
+
+
+        </div>
+    </section>
+</article>
+@section scripts {
+    <script src="~/Content/secondaryjs.js"></script>
+}

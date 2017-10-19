@@ -4,6 +4,7 @@
     <title>WOOMB International Conference 2018 - @ViewBag.Title</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="@ViewBag.Description">
     <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
     <link rel="stylesheet" href="/assets/css/main.css" />
     <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
@@ -46,7 +47,7 @@
 
         <!-- Header -->
         <header id="header" class="alt">
-            <h1><a href="index.html">Conferencia Internacional WOOMB 2018</a></h1>
+            <h1>@Html.ActionLink(WC18.MainResources.Headerhome, "Index")</h1>
             <nav id="nav">
                 <ul>
                     <li class="special">
@@ -57,6 +58,7 @@
                                 <li>@Html.ActionLink(WC18.MainResources.Program, "Program")</li>
                                 <li>@Html.ActionLink(WC18.MainResources.Registration, "Registration")</li>
                                 <li>@Html.ActionLink(WC18.MainResources.Speakers, "Speakers")</li>
+                                <li>@Html.ActionLink(WC18.MainResources.Sponsors, "SponsorInfo")</li>
                                 @{
                                     string action = ViewContext.RouteData.Values["action"] as string ?? "Index";
                                 }
@@ -81,9 +83,16 @@
             </ul>
             <ul class="copyright">
                 <li>&copy; WOOMB Costa Rica</li>
-                <li>@WC18.MainResources.BaseDesign: <a href="http://html5up.net">HTML5 UP</a></li>
+                <li>@WC18.MainResources.BaseDesign: <a href="http://html5up.net" target="_blank">HTML5 UP</a></li>
                 <li>@WC18.MainResources.Customized WOOMB Costa Rica</li>
-                <li>@WC18.MainResources.Hosting: <a href="http://trinosystems.com">TrinoSystems</a></li>
+                <li>@WC18.MainResources.Hosting: <a href="http://trinosystems.com" target="_blank">TrinoSystems</a></li>
+            </ul>
+            <ul class="externallinks">
+                <li><a href="http://www.woombinternational.org" target="_blank"> @WC18.MainResources.WOOMBInternational</a></li>
+                <li><a href="http://www.woombinternational.org/index.php/education" target="_blank"> @WC18.MainResources.TeacherEducation</a></li>
+                <li><a href="http://www.woombinternational.org/index.php/science-of-fertility" target="_blank"> @WC18.MainResources.FertilityScience</a></li>
+                <li><a href="http://billings.life/en/contactbillingslife/billings-ovulation-method-teaching-centres-worldwide-2.html" target="_blank"> @WC18.MainResources.Affiliates</a></li>
+                <li><a href="http://woomblatinoamerica.blogspot.com/" target="_blank"> @WC18.MainResources.WOOMBLA</a></li>
             </ul>
         </footer>
 
