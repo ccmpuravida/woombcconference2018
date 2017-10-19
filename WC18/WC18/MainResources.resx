@@ -247,7 +247,11 @@
     <value>Bienvenido(a) </value>
   </data>
   <data name="Mail2" xml:space="preserve">
-    <value>Gracias por registrarte. Recuerda que tu registro quedará en firme cuando se confirme el pago. Puedes escribir a info@woombconference2018.com para más información.</value>
+    <value>Gracias por registrarte. Recuerda que tu registro quedará en firme cuando se confirme el pago. Puedes escribir a info@woombconference2018.com para más información. Para realizar el pago tienes las siguientes opciones:&lt;br/&gt;&lt;br/&gt;Por transferencia bancaria: Para tener los detalles puedes escribir a info@woombconference2018.com&lt;br/&gt;&lt;br/&gt;
+ 
+Por medio de los afiliados de tu país: puedes ver los contactos de los países afiliados &lt;a href="http://www.woombinternational.org/index.php/global-outreach" target="_blank"&gt;aquí&lt;/a&gt;.&lt;br/&gt;&lt;br/&gt;
+
+Transferencia por Western Union: escribe a info@woombconference2018.com para más detalles.</value>
   </data>
   <data name="NameRequired" xml:space="preserve">
     <value>El nombre es requerido.</value>

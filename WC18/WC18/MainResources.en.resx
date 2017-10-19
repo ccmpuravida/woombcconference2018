@@ -247,7 +247,9 @@
     <value>Welcome </value>
   </data>
   <data name="Mail2" xml:space="preserve">
-    <value>Thanks for registering. Remember your registration will finish when confirming the payment. Feel free to write to info@woombconference2018.org for more information.</value>
+    <value>Thanks for registering. Remember your registration will finish when confirming the payment. Feel free to write to info@woombconference2018.org for more information.You can confirm your registration in any of the below ways:&lt;br/&gt;&lt;br/&gt;Direct Bank Transfer: Write to info@woombconference2018.com for details.&lt;br /&gt;&lt;br /&gt;
+By any of our international affiliates: See the list &lt;a href="http://www.woombinternational.org/index.php/global-outreach" target="_blank"&gt;here&lt;/a&gt;. &lt;br /&gt;&lt;br /&gt;
+Western Union transfer: write to info@woombconference2018.com for more details.</value>
   </data>
   <data name="NameRequired" xml:space="preserve">
     <value>Then name is required.</value>

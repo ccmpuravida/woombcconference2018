@@ -40,6 +40,7 @@ namespace WC18.Controllers
         [HttpPost]
         public ActionResult Registration(WC18.Models.Registration model)
         {
+            DefineUICulture("");
             model.Date = DateTime.Now;
 
             if (ModelState.IsValid)
@@ -141,7 +142,15 @@ namespace WC18.Controllers
                 {
                     // set the culture by the location if not speicified
                     //langHeader = HttpContext.Request.UserLanguages[0];
-                    langHeader = "en-US";
+                    if(HttpContext != null && HttpContext.Request!=null && HttpContext.Request.UserLanguages != null)
+                    {
+                        langHeader = HttpContext.Request.UserLanguages[0];
+                    }
+                    else
+                    {
+                        langHeader = "en-US";
+                    }
+                    
                     Thread.CurrentThread.CurrentUICulture = CultureInfo.CreateSpecificCulture(langHeader);
                 }
             }
