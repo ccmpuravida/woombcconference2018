@@ -205,7 +205,7 @@
     <value>Email</value>
   </data>
   <data name="LabelHost" xml:space="preserve">
-    <value>Lodging (please enter number of nights)</value>
+    <value>Lodging (please enter number of nights)+</value>
   </data>
   <data name="LabelHostDays" xml:space="preserve">
     <value>Lodging Nights</value>
@@ -242,6 +242,9 @@
   </data>
   <data name="LinkSponsors" xml:space="preserve">
     <value>Information here</value>
+  </data>
+  <data name="LodgingNotes" xml:space="preserve">
+    <value>+Please specify in comments check in and check out dates</value>
   </data>
   <data name="Mail1" xml:space="preserve">
     <value>Welcome </value>

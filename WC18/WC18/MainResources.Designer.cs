@@ -322,7 +322,7 @@ namespace WC18 {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Alojamiento (indicar número de noches).
+        ///   Busca una cadena traducida similar a Alojamiento (indicar número de noches)+.
         /// </summary>
         public static string LabelHost {
             get {
@@ -435,6 +435,15 @@ namespace WC18 {
         public static string LinkSponsors {
             get {
                 return ResourceManager.GetString("LinkSponsors", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a + Favor indicar en comentarios fecha de ingreso y fecha de salida..
+        /// </summary>
+        public static string LodgingNotes {
+            get {
+                return ResourceManager.GetString("LodgingNotes", resourceCulture);
             }
         }
         

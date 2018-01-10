@@ -205,7 +205,7 @@
     <value>Correo electrónico</value>
   </data>
   <data name="LabelHost" xml:space="preserve">
-    <value>Alojamiento (indicar número de noches)</value>
+    <value>Alojamiento (indicar número de noches)+</value>
   </data>
   <data name="LabelHostDays" xml:space="preserve">
     <value>Días Alojamiento</value>
@@ -242,6 +242,9 @@
   </data>
   <data name="LinkSponsors" xml:space="preserve">
     <value>Información aquí</value>
+  </data>
+  <data name="LodgingNotes" xml:space="preserve">
+    <value>+ Favor indicar en comentarios fecha de ingreso y fecha de salida.</value>
   </data>
   <data name="Mail1" xml:space="preserve">
     <value>Bienvenido(a) </value>
