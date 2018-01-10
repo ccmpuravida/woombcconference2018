@@ -155,7 +155,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/14/2017 22:29:30</publishTime>
     </File>
     <File Include="bin/en/WC18.resources.dll">
-      <publishTime>10/18/2017 21:23:05</publishTime>
+      <publishTime>11/11/2017 11:50:44</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
       <publishTime>03/02/2015 09:32:26</publishTime>
@@ -347,10 +347,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/14/2017 22:29:31</publishTime>
     </File>
     <File Include="bin/WC18.dll">
-      <publishTime>10/18/2017 21:23:04</publishTime>
+      <publishTime>11/11/2017 11:50:43</publishTime>
     </File>
     <File Include="bin/WC18.pdb">
-      <publishTime>10/18/2017 21:23:04</publishTime>
+      <publishTime>11/11/2017 11:50:43</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
       <publishTime>08/14/2017 22:29:33</publishTime>
@@ -617,19 +617,19 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/26/2017 21:32:24</publishTime>
     </File>
     <File Include="Views/Home/Index.en.cshtml">
-      <publishTime>08/26/2017 21:32:33</publishTime>
+      <publishTime>11/11/2017 11:36:25</publishTime>
     </File>
     <File Include="Views/Home/Program.cshtml">
       <publishTime>10/22/2017 18:17:45</publishTime>
     </File>
     <File Include="Views/Home/Program.en.cshtml">
-      <publishTime>10/22/2017 18:41:05</publishTime>
+      <publishTime>11/11/2017 11:06:24</publishTime>
     </File>
     <File Include="Views/Home/Registration.cshtml">
       <publishTime>10/16/2017 13:50:49</publishTime>
     </File>
     <File Include="Views/Home/Registration.en.cshtml">
-      <publishTime>10/16/2017 13:53:31</publishTime>
+      <publishTime>11/11/2017 10:54:25</publishTime>
     </File>
     <File Include="Views/Home/RegistrationConfirm.cshtml">
       <publishTime>09/21/2017 19:51:06</publishTime>
@@ -644,13 +644,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/29/2017 22:03:49</publishTime>
     </File>
     <File Include="Views/Home/Speakers.en.cshtml">
-      <publishTime>08/29/2017 22:16:39</publishTime>
+      <publishTime>11/11/2017 11:29:14</publishTime>
     </File>
     <File Include="Views/Home/SponsorInfo.cshtml">
       <publishTime>08/24/2017 18:08:21</publishTime>
     </File>
     <File Include="Views/Home/SponsorInfo.en.cshtml">
-      <publishTime>08/27/2017 16:03:09</publishTime>
+      <publishTime>11/11/2017 11:32:04</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>08/14/2017 22:29:05</publishTime>
