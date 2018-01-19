@@ -244,15 +244,19 @@
     <value>Information here</value>
   </data>
   <data name="LodgingNotes" xml:space="preserve">
-    <value>+Please specify in comments check in and check out dates</value>
+    <value>+Please specify in comments check in and check out dates. Fee is for double rooms, if you require single please let us know to confirm fees.</value>
   </data>
   <data name="Mail1" xml:space="preserve">
-    <value>Welcome </value>
+    <value>Welcome /Bienvenido(a)</value>
   </data>
   <data name="Mail2" xml:space="preserve">
-    <value>Thanks for registering. Remember your registration will finish when confirming the payment. Feel free to write to info@woombconference2018.org for more information.You can confirm your registration in any of the below ways:&lt;br/&gt;&lt;br/&gt;Direct Bank Transfer: Write to info@woombconference2018.com for details.&lt;br /&gt;&lt;br /&gt;
+    <value>Thanks for registering. We received your registration. &lt;br /&gt;&lt;br /&gt;Feel free to write to info@woombconference2018.org for more information.You can confirm your registration in any of the below ways:&lt;br/&gt;&lt;br/&gt;Direct Bank Transfer: Write to info@woombconference2018.com for details.&lt;br /&gt;&lt;br /&gt;
 By any of our international affiliates: See the list &lt;a href="http://www.woombinternational.org/index.php/global-outreach" target="_blank"&gt;here&lt;/a&gt;. &lt;br /&gt;&lt;br /&gt;
-Western Union transfer: write to info@woombconference2018.com for more details.</value>
+Western Union transfer: write to info@woombconference2018.com for more details.&lt;br /&gt;&lt;br /&gt;Note: Bank transfer may be subject to fees by receiver bank, in such case the participant should pay the difference the day the conference starts.&lt;br/&gt;&lt;br/&gt;---------------------------------&lt;br/&gt;&lt;br/&gt;Gracias por registrarte. Tu registro fue recibido.&lt;br/&gt;&lt;br/&gt; Puedes escribir a info@woombconference2018.com para más información. Para realizar el pago tienes las siguientes opciones:&lt;br/&gt;&lt;br/&gt;Por transferencia bancaria: Para tener los detalles puedes escribir a info@woombconference2018.com&lt;br/&gt;&lt;br/&gt;
+ 
+Por medio de los afiliados de tu país: puedes ver los contactos de los países afiliados &lt;a href="http://www.woombinternational.org/index.php/global-outreach" target="_blank"&gt;aquí&lt;/a&gt;.&lt;br/&gt;&lt;br/&gt;
+
+Transferencia por Western Union: escribe a info@woombconference2018.com para más detalles.&lt;br/&gt;&lt;br/&gt;Nota: los pagos por transferencia bancaria pueden tener comision adicional del banco receptor, en ese caso, la diferencia la deberá pagar el participante al iniciar el congreso.</value>
   </data>
   <data name="NameRequired" xml:space="preserve">
     <value>Then name is required.</value>

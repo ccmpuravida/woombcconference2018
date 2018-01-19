@@ -155,7 +155,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/14/2017 22:29:30</publishTime>
     </File>
     <File Include="bin/en/WC18.resources.dll">
-      <publishTime>11/11/2017 11:50:44</publishTime>
+      <publishTime>01/17/2018 08:56:47</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
       <publishTime>03/02/2015 09:32:26</publishTime>
@@ -347,10 +347,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/14/2017 22:29:31</publishTime>
     </File>
     <File Include="bin/WC18.dll">
-      <publishTime>11/11/2017 11:50:43</publishTime>
+      <publishTime>01/17/2018 08:56:44</publishTime>
     </File>
     <File Include="bin/WC18.pdb">
-      <publishTime>11/11/2017 11:50:43</publishTime>
+      <publishTime>01/17/2018 08:56:44</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
       <publishTime>08/14/2017 22:29:33</publishTime>
@@ -626,10 +626,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/11/2017 11:06:24</publishTime>
     </File>
     <File Include="Views/Home/Registration.cshtml">
-      <publishTime>10/16/2017 13:50:49</publishTime>
+      <publishTime>01/18/2018 21:24:10</publishTime>
     </File>
     <File Include="Views/Home/Registration.en.cshtml">
-      <publishTime>11/11/2017 10:54:25</publishTime>
+      <publishTime>01/18/2018 21:25:40</publishTime>
     </File>
     <File Include="Views/Home/RegistrationConfirm.cshtml">
       <publishTime>09/21/2017 19:51:06</publishTime>
@@ -638,7 +638,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/21/2017 19:50:54</publishTime>
     </File>
     <File Include="Views/Home/RegistrationFormPartial.cshtml">
-      <publishTime>10/16/2017 13:37:58</publishTime>
+      <publishTime>01/10/2018 15:10:47</publishTime>
     </File>
     <File Include="Views/Home/Speakers.cshtml">
       <publishTime>08/29/2017 22:03:49</publishTime>

@@ -439,7 +439,7 @@ namespace WC18 {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a + Favor indicar en comentarios fecha de ingreso y fecha de salida..
+        ///   Busca una cadena traducida similar a + Favor indicar en comentarios fecha de ingreso y fecha de salida. El monto es por habitacion doble, si necesita individual por favor indicarnos para confirmar el monto..
         /// </summary>
         public static string LodgingNotes {
             get {
@@ -448,7 +448,7 @@ namespace WC18 {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Bienvenido(a) .
+        ///   Busca una cadena traducida similar a Bienvenido(a) /Welcome:.
         /// </summary>
         public static string Mail1 {
             get {
@@ -457,9 +457,11 @@ namespace WC18 {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Gracias por registrarte. Recuerda que tu registro quedará en firme cuando se confirme el pago. Puedes escribir a info@woombconference2018.com para más información. Para realizar el pago tienes las siguientes opciones:&lt;br/&gt;&lt;br/&gt;Por transferencia bancaria: Para tener los detalles puedes escribir a info@woombconference2018.com&lt;br/&gt;&lt;br/&gt;
+        ///   Busca una cadena traducida similar a Gracias por registrarte. Tu registro fue recibido.&lt;br/&gt;&lt;br/&gt; Puedes escribir a info@woombconference2018.com para más información. Para realizar el pago tienes las siguientes opciones:&lt;br/&gt;&lt;br/&gt;Por transferencia bancaria: Para tener los detalles puedes escribir a info@woombconference2018.com&lt;br/&gt;&lt;br/&gt;
         /// 
-        ///Por medio de los afiliados de tu país: puedes ver los contactos de los países afiliados &lt;a href=&quot;http://www.woombinternational.org/index.php/global-outreach&quot; target=&quot;_blank [resto de la cadena truncado]&quot;;.
+        ///Por medio de los afiliados de tu país: puedes ver los contactos de los países afiliados &lt;a href=&quot;http://www.woombinternational.org/index.php/global-outreach&quot; target=&quot;_blank&quot;&gt;aquí&lt;/a&gt;.&lt;br/&gt;&lt;br/&gt;
+        ///
+        ///Transfere [resto de la cadena truncado]&quot;;.
         /// </summary>
         public static string Mail2 {
             get {
