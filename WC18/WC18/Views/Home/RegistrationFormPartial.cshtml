@@ -94,11 +94,11 @@
                 <label for="form-tour">@WC18.MainResources.LabelTour</label>
             </div>
             <div class="3u 12u$(small)">
-                <input type="checkbox" id="form-alojamiento" name="ToHost" value="true">
+                <input type="checkbox" id="form-alojamiento" name="ToHost" value="true" disabled>
                 <label for="form-alojamiento">@WC18.MainResources.LabelHost</label>
             </div>
             <div class="3u 12u$(small)">
-                @Html.TextBoxFor(model => model.ToHostDays, new { id = "form-dias" })
+                @Html.TextBoxFor(model => model.ToHostDays, new { id = "form-dias", disabled = "disabled" })
                 @Html.ValidationMessageFor(model => model.ToHostDays, "", new { @class = "val-error" })
                 @*<input type="text" id="form-dias" name="form-dias" size="2" maxlength="2" default="0">*@
                 <label for="form-dias">@WC18.MainResources.LabelHostDays</label>

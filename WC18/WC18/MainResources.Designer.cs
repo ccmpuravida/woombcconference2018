@@ -439,7 +439,7 @@ namespace WC18 {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a + Favor indicar en comentarios fecha de ingreso y fecha de salida. El monto es por habitacion doble, si necesita individual por favor indicarnos para confirmar el monto..
+        ///   Busca una cadena traducida similar a + Favor indicar en comentarios fecha de ingreso y fecha de salida. El monto es por persona en habitacion doble, si necesita individual por favor indicarnos para confirmar el monto..
         /// </summary>
         public static string LodgingNotes {
             get {

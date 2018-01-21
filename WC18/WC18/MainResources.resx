@@ -244,7 +244,7 @@
     <value>Información aquí</value>
   </data>
   <data name="LodgingNotes" xml:space="preserve">
-    <value>+ Favor indicar en comentarios fecha de ingreso y fecha de salida. El monto es por habitacion doble, si necesita individual por favor indicarnos para confirmar el monto.</value>
+    <value>+ Favor indicar en comentarios fecha de ingreso y fecha de salida. El monto es por persona en habitacion doble, si necesita individual por favor indicarnos para confirmar el monto.</value>
   </data>
   <data name="Mail1" xml:space="preserve">
     <value>Bienvenido(a) /Welcome:</value>

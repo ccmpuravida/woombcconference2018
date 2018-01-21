@@ -244,7 +244,7 @@
     <value>Information here</value>
   </data>
   <data name="LodgingNotes" xml:space="preserve">
-    <value>+Please specify in comments check in and check out dates. Fee is for double rooms, if you require single please let us know to confirm fees.</value>
+    <value>+Please specify in comments check in and check out dates. Fee is for double rooms per person, if you require single please let us know to confirm fees.</value>
   </data>
   <data name="Mail1" xml:space="preserve">
     <value>Welcome /Bienvenido(a)</value>
