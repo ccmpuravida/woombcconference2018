@@ -55,6 +55,7 @@ $(function () {
                 total1 = total1 - alojamiento;
                 total2 = total2 - alojamiento;
                 alojamiento = 0;
+                $('#form-dias').val('');
             }
         }
 
