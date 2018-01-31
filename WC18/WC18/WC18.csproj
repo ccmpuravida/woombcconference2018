@@ -222,6 +222,7 @@
     <Content Include="assets\sass\main.scss" />
     <Content Include="images\logo-web.png" />
     <Content Include="images\LogoFinal.png" />
+    <Content Include="images\Logo_GL.png" />
     <Content Include="images\USCCB.jpg" />
     <Content Include="images\USCCB_logo_spanish.jpg" />
     <Content Include="manifest.json" />

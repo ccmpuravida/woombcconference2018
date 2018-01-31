@@ -155,7 +155,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/14/2017 22:29:30</publishTime>
     </File>
     <File Include="bin/en/WC18.resources.dll">
-      <publishTime>01/20/2018 20:22:31</publishTime>
+      <publishTime>01/30/2018 22:29:25</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
       <publishTime>03/02/2015 09:32:26</publishTime>
@@ -347,10 +347,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/14/2017 22:29:31</publishTime>
     </File>
     <File Include="bin/WC18.dll">
-      <publishTime>01/20/2018 20:22:30</publishTime>
+      <publishTime>01/30/2018 22:29:24</publishTime>
     </File>
     <File Include="bin/WC18.pdb">
-      <publishTime>01/20/2018 20:22:30</publishTime>
+      <publishTime>01/30/2018 22:29:24</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
       <publishTime>08/14/2017 22:29:33</publishTime>
@@ -474,6 +474,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="images/LogoFinal.png">
       <publishTime>08/16/2017 20:41:57</publishTime>
+    </File>
+    <File Include="images/Logo_GL.png">
+      <publishTime>01/30/2018 21:56:53</publishTime>
     </File>
     <File Include="images/logo_woomb_cr.png">
       <publishTime>08/14/2017 22:29:20</publishTime>
@@ -620,10 +623,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/14/2017 22:29:05</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>01/20/2018 20:08:58</publishTime>
+      <publishTime>01/30/2018 22:23:17</publishTime>
     </File>
     <File Include="Views/Home/Index.en.cshtml">
-      <publishTime>01/20/2018 20:08:25</publishTime>
+      <publishTime>01/30/2018 22:24:54</publishTime>
     </File>
     <File Include="Views/Home/Program.cshtml">
       <publishTime>10/22/2017 18:17:45</publishTime>
@@ -638,10 +641,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/27/2018 19:29:58</publishTime>
     </File>
     <File Include="Views/Home/RegistrationConfirm.cshtml">
-      <publishTime>09/21/2017 19:51:06</publishTime>
+      <publishTime>01/30/2018 20:35:46</publishTime>
     </File>
     <File Include="Views/Home/RegistrationConfirm.en.cshtml">
-      <publishTime>09/21/2017 19:50:54</publishTime>
+      <publishTime>01/30/2018 20:36:20</publishTime>
     </File>
     <File Include="Views/Home/RegistrationFormPartial.cshtml">
       <publishTime>01/26/2018 13:43:23</publishTime>

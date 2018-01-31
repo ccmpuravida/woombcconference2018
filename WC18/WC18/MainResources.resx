@@ -274,10 +274,10 @@ Western Union transfer: write to info@woombconference2018.com for more details.&
     <value>El número de teléfono debe tener entre {2} y {1} caracteres.</value>
   </data>
   <data name="PriceAfter" xml:space="preserve">
-    <value>Precio después del  31/1/2017</value>
+    <value>Precio después del  31/1/2018</value>
   </data>
   <data name="PriceBefore" xml:space="preserve">
-    <value>Precio antes del 31/1/2017</value>
+    <value>Precio antes del 31/1/2018</value>
   </data>
   <data name="Program" xml:space="preserve">
     <value>Programa</value>

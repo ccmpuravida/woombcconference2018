@@ -515,7 +515,7 @@ namespace WC18 {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Precio después del  31/1/2017.
+        ///   Busca una cadena traducida similar a Precio después del  31/1/2018.
         /// </summary>
         public static string PriceAfter {
             get {
@@ -524,7 +524,7 @@ namespace WC18 {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Precio antes del 31/1/2017.
+        ///   Busca una cadena traducida similar a Precio antes del 31/1/2018.
         /// </summary>
         public static string PriceBefore {
             get {
