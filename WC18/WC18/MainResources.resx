@@ -177,6 +177,9 @@
   <data name="Hosting" xml:space="preserve">
     <value>Hospedaje cortesía de</value>
   </data>
+  <data name="HumanaeVitae" xml:space="preserve">
+    <value>50 años de Humanae Vitae</value>
+  </data>
   <data name="IdNumberRequired" xml:space="preserve">
     <value>El número de ID es requerido.</value>
   </data>

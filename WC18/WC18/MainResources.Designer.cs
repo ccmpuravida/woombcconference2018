@@ -241,6 +241,15 @@ namespace WC18 {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a 50 años de Humanae Vitae.
+        /// </summary>
+        public static string HumanaeVitae {
+            get {
+                return ResourceManager.GetString("HumanaeVitae", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a El número de ID es requerido..
         /// </summary>
         public static string IdNumberRequired {
