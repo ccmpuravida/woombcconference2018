@@ -228,6 +228,7 @@
     <Content Include="images\USCCB_logo_spanish.jpg" />
     <Content Include="manifest.json" />
     <Content Include="documents\De HV a AL.pdf" />
+    <Content Include="documents\From HV_to_AL_English.pdf" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
     <Content Include="images\0_WOOMBLatinoamerica.png" />
