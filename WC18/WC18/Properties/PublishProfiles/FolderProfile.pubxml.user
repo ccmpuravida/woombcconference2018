@@ -644,10 +644,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/26/2018 20:42:01</publishTime>
     </File>
     <File Include="Views/Home/Registration.cshtml">
-      <publishTime>02/26/2018 20:46:38</publishTime>
+      <publishTime>02/26/2018 21:16:11</publishTime>
     </File>
     <File Include="Views/Home/Registration.en.cshtml">
-      <publishTime>02/26/2018 20:48:57</publishTime>
+      <publishTime>02/26/2018 21:15:18</publishTime>
     </File>
     <File Include="Views/Home/RegistrationConfirm.cshtml">
       <publishTime>01/30/2018 20:35:46</publishTime>
