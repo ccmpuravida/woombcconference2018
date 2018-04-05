@@ -22,7 +22,7 @@ namespace WC18.Models
 
         [EmailAddress(ErrorMessageResourceType = typeof(MainResources), ErrorMessageResourceName = "EmailAddressFormat")]
         [Required(ErrorMessageResourceType = typeof(MainResources), ErrorMessageResourceName = "EmailRequired")]
-        [StringLength(32, MinimumLength = 5, ErrorMessageResourceType = typeof(MainResources), ErrorMessageResourceName = "EmailStringLength")]
+        [StringLength(64, MinimumLength = 5, ErrorMessageResourceType = typeof(MainResources), ErrorMessageResourceName = "EmailStringLength")]
         [DataType(DataType.EmailAddress)]
         public string Email { get; set; }
 

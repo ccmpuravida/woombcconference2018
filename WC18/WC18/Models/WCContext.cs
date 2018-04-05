@@ -10,6 +10,6 @@ namespace WC18.Models
     {
         public DbSet<Registration> Registrations { get; set; }
 
-        public WCContext() : base("name=WC") { }
+        public WCContext() : base("name=WC") { Database.SetInitializer<WCContext>(null); }
     }
 }
