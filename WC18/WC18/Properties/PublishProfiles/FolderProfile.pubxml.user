@@ -155,7 +155,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/14/2017 22:29:30</publishTime>
     </File>
     <File Include="bin/en/WC18.resources.dll">
-      <publishTime>04/26/2018 23:39:50</publishTime>
+      <publishTime>04/27/2018 00:15:24</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
       <publishTime>03/02/2015 09:32:26</publishTime>
@@ -347,10 +347,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/14/2017 22:29:31</publishTime>
     </File>
     <File Include="bin/WC18.dll">
-      <publishTime>04/26/2018 23:39:48</publishTime>
+      <publishTime>04/27/2018 00:15:21</publishTime>
     </File>
     <File Include="bin/WC18.pdb">
-      <publishTime>04/26/2018 23:39:48</publishTime>
+      <publishTime>04/27/2018 00:15:21</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
       <publishTime>08/14/2017 22:29:33</publishTime>
@@ -396,6 +396,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/speakers.css">
       <publishTime>08/18/2017 15:44:46</publishTime>
+    </File>
+    <File Include="documents/1.a BioethicConsiderations_MartinTantalean.pdf">
+      <publishTime>04/26/2018 23:54:57</publishTime>
+    </File>
+    <File Include="documents/1.b ConsideracionesBioeticas_MartinTantalean.pdf">
+      <publishTime>04/26/2018 23:54:57</publishTime>
     </File>
     <File Include="documents/2.MarianCorkill_ScientificFactsBOM.pdf">
       <publishTime>04/26/2018 20:57:48</publishTime>
@@ -662,10 +668,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/14/2017 22:29:05</publishTime>
     </File>
     <File Include="Views/Home/Downloads.cshtml">
-      <publishTime>04/26/2018 22:15:01</publishTime>
+      <publishTime>04/27/2018 00:02:50</publishTime>
     </File>
     <File Include="Views/Home/Downloads.en.cshtml">
-      <publishTime>04/26/2018 22:14:39</publishTime>
+      <publishTime>04/27/2018 00:03:46</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
       <publishTime>02/20/2018 22:59:45</publishTime>
