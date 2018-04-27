@@ -138,6 +138,9 @@
   <data name="Customized" xml:space="preserve">
     <value>Customized by</value>
   </data>
+  <data name="Downloads" xml:space="preserve">
+    <value>Downloads</value>
+  </data>
   <data name="EmailAddressFormat" xml:space="preserve">
     <value>The email format is invalid.</value>
   </data>

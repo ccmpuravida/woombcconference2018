@@ -138,6 +138,9 @@
   <data name="Customized" xml:space="preserve">
     <value>Personalizado por</value>
   </data>
+  <data name="Downloads" xml:space="preserve">
+    <value>Descargas</value>
+  </data>
   <data name="EmailAddressFormat" xml:space="preserve">
     <value>El formato del correo electrónico es incorrecto.</value>
   </data>

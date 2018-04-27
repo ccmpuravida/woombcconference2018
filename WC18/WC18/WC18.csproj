@@ -229,6 +229,16 @@
     <Content Include="manifest.json" />
     <Content Include="documents\De HV a AL.pdf" />
     <Content Include="documents\From HV_to_AL_English.pdf" />
+    <Content Include="documents\2.MarianCorkill_ScientificFactsBOM.pdf" />
+    <Content Include="documents\5.ImportanciaFormacionInstructor_Gladys.pdf" />
+    <Content Include="documents\6.a.MonsLibardo_Aplicando_Amoris_Laetitia.pdf" />
+    <Content Include="documents\6.b.ConsideracionesEticasMOB_MariaPiedad.pdf" />
+    <Content Include="documents\6.c.JustHowJustAReson_FrDismas.pdf" />
+    <Content Include="documents\7.a.GrettelMendoza-BOM in Health System.pdf" />
+    <Content Include="documents\7.b.GrettelMendoza-MOB_en_sistema_de_salud.pdf" />
+    <Content Include="documents\8.StepCordero_NutricionYFertilidad.pdf" />
+    <Content Include="documents\9.SilviaEtch_EnsenanzaMOBNoVidentes.pdf" />
+    <Content Include="documents\3.a MOB_en_parejas_subfertilidad-Stecher.pdf" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
     <Content Include="images\0_WOOMBLatinoamerica.png" />
@@ -312,6 +322,8 @@
     <Content Include="Views\Home\RegistrationConfirm.cshtml" />
     <Content Include="Views\Home\RegistrationFormPartial.cshtml" />
     <Content Include="Views\Home\RegistrationConfirm.en.cshtml" />
+    <Content Include="Views\Home\Downloads.cshtml" />
+    <Content Include="Views\Home\Downloads.en.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

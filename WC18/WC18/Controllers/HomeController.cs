@@ -120,6 +120,12 @@ namespace WC18.Controllers
             return View(vn);
         }
 
+        public ActionResult Downloads(string lang = "")
+        {
+            string vn = "Downloads" + DefineUICulture(lang);
+            return View(vn);
+        }
+
         private string DefineUICulture(string lang)
         {
             if (lang != null && !string.IsNullOrWhiteSpace(lang))
