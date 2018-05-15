@@ -165,6 +165,9 @@
   <data name="FormPassport" xml:space="preserve">
     <value>Pasaporte</value>
   </data>
+  <data name="Gallery" xml:space="preserve">
+    <value>Galería</value>
+  </data>
   <data name="Headerhome" xml:space="preserve">
     <value>Conferencia WOOMB</value>
   </data>

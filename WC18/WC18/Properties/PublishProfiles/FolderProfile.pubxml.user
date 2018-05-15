@@ -155,7 +155,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/14/2017 22:29:30</publishTime>
     </File>
     <File Include="bin/en/WC18.resources.dll">
-      <publishTime>04/27/2018 00:15:24</publishTime>
+      <publishTime>05/14/2018 21:20:58</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
       <publishTime>03/02/2015 09:32:26</publishTime>
@@ -347,10 +347,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/14/2017 22:29:31</publishTime>
     </File>
     <File Include="bin/WC18.dll">
-      <publishTime>04/27/2018 00:15:21</publishTime>
+      <publishTime>05/14/2018 21:20:56</publishTime>
     </File>
     <File Include="bin/WC18.pdb">
-      <publishTime>04/27/2018 00:15:21</publishTime>
+      <publishTime>05/14/2018 21:20:56</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
       <publishTime>08/14/2017 22:29:33</publishTime>
@@ -403,11 +403,20 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="documents/1.b ConsideracionesBioeticas_MartinTantalean.pdf">
       <publishTime>04/26/2018 23:54:57</publishTime>
     </File>
+    <File Include="documents/10.Dr.Vigil-PCOS-INGLES.pdf">
+      <publishTime>05/14/2018 20:15:43</publishTime>
+    </File>
     <File Include="documents/2.MarianCorkill_ScientificFactsBOM.pdf">
       <publishTime>04/26/2018 20:57:48</publishTime>
     </File>
     <File Include="documents/3.a MOB_en_parejas_subfertilidad-Stecher.pdf">
       <publishTime>04/26/2018 21:55:10</publishTime>
+    </File>
+    <File Include="documents/3.b MOB_and_infertility-Stecher.pdf">
+      <publishTime>04/27/2018 13:23:20</publishTime>
+    </File>
+    <File Include="documents/5.b.ImportanciaFormacionInstructor_PPT_Gladys.pdf">
+      <publishTime>05/14/2018 20:15:43</publishTime>
     </File>
     <File Include="documents/5.ImportanciaFormacionInstructor_Gladys.pdf">
       <publishTime>04/26/2018 20:57:49</publishTime>
@@ -421,11 +430,17 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="documents/6.c.JustHowJustAReson_FrDismas.pdf">
       <publishTime>04/26/2018 20:57:49</publishTime>
     </File>
+    <File Include="documents/6.c.JustHowJustAReson_text_FrDismas.pdf">
+      <publishTime>05/14/2018 20:15:43</publishTime>
+    </File>
     <File Include="documents/7.a.GrettelMendoza-BOM in Health System.pdf">
       <publishTime>04/26/2018 20:57:50</publishTime>
     </File>
     <File Include="documents/7.b.GrettelMendoza-MOB_en_sistema_de_salud.pdf">
       <publishTime>04/26/2018 20:57:50</publishTime>
+    </File>
+    <File Include="documents/8.a.StepCordero_NutritionAndFertility.pdf">
+      <publishTime>05/14/2018 20:21:31</publishTime>
     </File>
     <File Include="documents/8.StepCordero_NutricionYFertilidad.pdf">
       <publishTime>04/26/2018 20:57:50</publishTime>
@@ -438,6 +453,18 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="documents/From HV_to_AL_English.pdf">
       <publishTime>02/26/2018 20:33:13</publishTime>
+    </File>
+    <File Include="documents/Poster_KerryBourke_AU.pdf">
+      <publishTime>05/14/2018 20:15:43</publishTime>
+    </File>
+    <File Include="documents/Poster_KerryBourke_AU_text.pdf">
+      <publishTime>05/14/2018 20:15:43</publishTime>
+    </File>
+    <File Include="documents/Poster_Perfil_usuarias_MOB_JohansemPalma_CR.pdf">
+      <publishTime>05/14/2018 20:16:40</publishTime>
+    </File>
+    <File Include="documents/Poster_Perfil_usuarias_MOB_JohansemPalma_text_CR.pdf">
+      <publishTime>05/14/2018 20:16:44</publishTime>
     </File>
     <File Include="favicon-16x16.png">
       <publishTime>08/14/2017 22:29:16</publishTime>
@@ -668,10 +695,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/14/2017 22:29:05</publishTime>
     </File>
     <File Include="Views/Home/Downloads.cshtml">
-      <publishTime>04/27/2018 00:02:50</publishTime>
+      <publishTime>05/14/2018 20:53:08</publishTime>
     </File>
     <File Include="Views/Home/Downloads.en.cshtml">
-      <publishTime>04/27/2018 00:03:46</publishTime>
+      <publishTime>05/14/2018 20:33:20</publishTime>
+    </File>
+    <File Include="Views/Home/Gallery.cshtml">
+      <publishTime>05/14/2018 20:39:28</publishTime>
+    </File>
+    <File Include="Views/Home/Gallery.en.cshtml">
+      <publishTime>05/14/2018 20:51:35</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
       <publishTime>02/20/2018 22:59:45</publishTime>
@@ -716,7 +749,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/14/2017 22:29:05</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>04/26/2018 21:40:30</publishTime>
+      <publishTime>05/14/2018 20:36:21</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>08/14/2017 22:29:05</publishTime>

@@ -126,6 +126,12 @@ namespace WC18.Controllers
             return View(vn);
         }
 
+        public ActionResult Gallery(string lang = "")
+        {
+            string vn = "Gallery" + DefineUICulture(lang);
+            return View(vn);
+        }
+
         private string DefineUICulture(string lang)
         {
             if (lang != null && !string.IsNullOrWhiteSpace(lang))

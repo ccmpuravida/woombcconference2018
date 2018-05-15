@@ -205,6 +205,15 @@ namespace WC18 {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Galería.
+        /// </summary>
+        public static string Gallery {
+            get {
+                return ResourceManager.GetString("Gallery", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Conferencia WOOMB.
         /// </summary>
         public static string Headerhome {
